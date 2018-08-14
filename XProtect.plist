@@ -4,6 +4,580 @@
 <array>
 	<dict>
 		<key>Description</key>
+		<string>OSX.Eleanor.A</string>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>MatchType</key>
+				<string>MatchAny</string>
+				<key>Matches</key>
+				<array>
+					<dict>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLTypeIdentifierKey</key>
+							<string>public.unix-executable</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+						<key>Identity</key>
+						<data>3mQnUelrjFN0TwMab36SnVMiYyE=</data>
+					</dict>
+					<dict>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLTypeIdentifierKey</key>
+							<string>public.unix-executable</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+						<key>Identity</key>
+						<data>H3guhN2/X9dkJvb5vz1CONLsmks=</data>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.Hmining.A.2</string>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>616C6C436F6D70657469746F72734167656E7444656D6F6E64</string>
+			</dict>
+			<dict>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>637265617465416E644C6F61644167656E74506C697374506174683A6167656E74506C6973744E616D653A6167656E74506C6973744B65794172723A6167656E74506C69737456616C4172723A697341646D696E3A</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.Trovi.A</string>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>726563656976696E675765627369746553746172746564</string>
+			</dict>
+			<dict>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>68746D6C496E6A6563746564</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.Hmining.A</string>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>686964654F70657261746F725769646F77416674657241646D696E</string>
+			</dict>
+			<dict>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>488B8598FEFFFF4889442438488B8590FEFFFF4889442430488B8580FEFFFF488B8D88FEFFFF48894C24284889442420488B8500FFFFFF4889442418488B85F8FEFFFF4889442410488B85E8FEFFFF488B8DF0FEFFFF48894C240848890424</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.Bundlore.A</string>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>5F5F6D6D5F676574496E6A6563746564506172616D73</string>
+			</dict>
+			<dict>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>5F5F6D6D5F72756E5368656C6C5363726970744173526F6F74</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.Genieo.E</string>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>474E53696E676C65746F6E476C6F62616C43616C63756C61746F72</string>
+			</dict>
+			<dict>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>474E46616C6C6261636B5265706F727448616E646C6572</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.InstallCore.A</string>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>MatchType</key>
+				<string>MatchAny</string>
+				<key>Matches</key>
+				<array>
+					<dict>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLTypeIdentifierKey</key>
+							<string>public.unix-executable</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+						<key>Pattern</key>
+						<string>C645A065C645A152C645A24AC645A350C645A45BC645A557C645A672C645A748C645A853C645A95DC645AA25C645AB33C645AC42C645A053B801000000</string>
+					</dict>
+					<dict>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLTypeIdentifierKey</key>
+							<string>public.unix-executable</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+						<key>Pattern</key>
+						<string>4989DF4889C3FFD34C89EFFFD3488B7DB0FFD3488B7DB8FFD34C89FFFFD34C8B6DC0488B7DA8</string>
+					</dict>
+					<dict>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLTypeIdentifierKey</key>
+							<string>public.unix-executable</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+						<key>Pattern</key>
+						<string>49434A617661536372697074456E7669726F6E6D656E74496E666F</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.KeRanger.A</string>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>488DBDD0EFFFFFBE00000000BA0004000031C04989D8*31F64C89E7*83F8FF7457C785C4EBFFFF00000000</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.CrossRider.A</string>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>E900000000488B8500FEFFFF8A08888D5FFEFFFF0FBE955FFEFFFF83C2D08955E0488BB560FEFFFF488BBD40FEFFFF</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.GenieoDropper.A</string>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLNameKey</key>
+					<string>mxp.min.js</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>66756E6374696F6E204163636570744F666665727328297B</string>
+			</dict>
+			<dict>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLNameKey</key>
+					<string>main.js</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>747261636B416E616C79746963734576656E742822657865637574696F6E222C224A7352756E22293B</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.InstallImitator.D</string>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>MatchType</key>
+				<string>MatchAny</string>
+				<key>Matches</key>
+				<array>
+					<dict>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLTypeIdentifierKey</key>
+							<string>public.unix-executable</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+						<key>Identity</key>
+						<data>weccPSIDn1dSfFLUZ+BmEq9P3J8=</data>
+					</dict>
+					<dict>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLTypeIdentifierKey</key>
+							<string>public.unix-executable</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+						<key>Identity</key>
+						<data>zWhrlO037kR/HiY8vClYCwg9ZiY=</data>
+					</dict>
+					<dict>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLTypeIdentifierKey</key>
+							<string>public.unix-executable</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+						<key>Identity</key>
+						<data>FKqdMMpcmw+W0q6AZL8CxCeCPVs=</data>
+					</dict>
+					<dict>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLTypeIdentifierKey</key>
+							<string>public.unix-executable</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+						<key>Identity</key>
+						<data>DLTGBvPkIDgCug27AJ1gGAJm9Kw=</data>
+					</dict>
+					<dict>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLTypeIdentifierKey</key>
+							<string>public.unix-executable</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+						<key>Identity</key>
+						<data>jKF2ybXm+ulRkkfE+a+ds3lVRZ8=</data>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.XcodeGhost.A</string>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>MatchType</key>
+				<string>MatchAny</string>
+				<key>Matches</key>
+				<array>
+					<dict>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLTypeIdentifierKey</key>
+							<string>public.data</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+						<key>Pattern</key>
+						<string>8346002008903046*082108A800910021019101210296032203955346CDF810B0059406900120</string>
+					</dict>
+					<dict>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLTypeIdentifierKey</key>
+							<string>public.data</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+						<key>Pattern</key>
+						<string>8346002007902046*082107A8009100210DF10409032289E8320801214346059606900120</string>
+					</dict>
+					<dict>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLTypeIdentifierKey</key>
+							<string>public.data</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+						<key>Pattern</key>
+						<string>8346002007903046*082107A800910021019101210296032203955346CDF810B0059406900020</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.Genieo.D</string>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>MatchType</key>
+				<string>MatchAny</string>
+				<key>Matches</key>
+				<array>
+					<dict>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLTypeIdentifierKey</key>
+							<string>public.unix-executable</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+						<key>Pattern</key>
+						<string>4989C40F57C00F298580FEFFFF0F298570FEFFFF0F298560FEFFFF0F298550FEFFFF41B8100000004C89E7488BB540FEFFFF488D9550FEFFFF48</string>
+					</dict>
+					<dict>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLTypeIdentifierKey</key>
+							<string>public.unix-executable</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+						<key>Pattern</key>
+						<string>F20F59C1F20F5CD0F20F1155B80F28C2F20F1055D8F20F105DC8F20F58DAF20F59D1F20F5CDAF20F115DB00F28CB31FFBE0500000031D2</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.Genieo.C</string>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>Identity</key>
+				<data>o+gnAx8UZkRCckme+FNIS6weuQs=</data>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.Genieo.B</string>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>MatchType</key>
+				<string>MatchAny</string>
+				<key>Matches</key>
+				<array>
+					<dict>
+						<key>Identity</key>
+						<data>SVc12l+1grk9kP/yyLmW0l4hqjE=</data>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLNameKey</key>
+							<string>AppDS</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+					</dict>
+					<dict>
+						<key>Identity</key>
+						<data>DhlsBne/b5RBEine/JRjndG2K3Y=</data>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLNameKey</key>
+							<string>AppS</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Description</key>
 		<string>OSX.Vindinstaller.A</string>
 		<key>LaunchServices</key>
 		<dict>
@@ -14,9 +588,7 @@
 		<array>
 			<dict>
 				<key>Identity</key>
-				<data>
-				wEDu4PDQbWcsv8qU8sv8GXld2Y0=
-				</data>
+				<data>wEDu4PDQbWcsv8qU8sv8GXld2Y0=</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -39,9 +611,7 @@
 		<array>
 			<dict>
 				<key>Identity</key>
-				<data>
-				oNC5008Hx9mYUrm4M7qPRyu1ZRY=
-				</data>
+				<data>oNC5008Hx9mYUrm4M7qPRyu1ZRY=</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLTypeIdentifierKey</key>
@@ -64,9 +634,30 @@
 		<array>
 			<dict>
 				<key>Identity</key>
-				<data>
-				0HNBwIFz0OiF5sr9fVxQ694HsgU=
-				</data>
+				<data>0HNBwIFz0OiF5sr9fVxQ694HsgU=</data>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLNameKey</key>
+					<string>Installer</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.InstallImitator.C</string>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>Identity</key>
+				<data>7qwSdeAY6IazKI2q57B4Qq7Ffv0=</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -117,9 +708,7 @@
 				<array>
 					<dict>
 						<key>Identity</key>
-						<data>
-						9YciNpookgB2IgJHoMTjNgdl8Lo=
-						</data>
+						<data>9YciNpookgB2IgJHoMTjNgdl8Lo=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -130,9 +719,7 @@
 					</dict>
 					<dict>
 						<key>Identity</key>
-						<data>
-						O34mmGfF4SI/UC053BTeMLHv3ak=
-						</data>
+						<data>O34mmGfF4SI/UC053BTeMLHv3ak=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -143,9 +730,7 @@
 					</dict>
 					<dict>
 						<key>Identity</key>
-						<data>
-						c01+N+xmSnYH5iMmVJy30wiO0CM=
-						</data>
+						<data>c01+N+xmSnYH5iMmVJy30wiO0CM=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -156,9 +741,7 @@
 					</dict>
 					<dict>
 						<key>Identity</key>
-						<data>
-						6kWioiypoCwHu0sjZ+XWTqcxRzE=
-						</data>
+						<data>6kWioiypoCwHu0sjZ+XWTqcxRzE=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -169,9 +752,7 @@
 					</dict>
 					<dict>
 						<key>Identity</key>
-						<data>
-						+WRtx0M37iOowVnxlkGcRlGKgJU=
-						</data>
+						<data>+WRtx0M37iOowVnxlkGcRlGKgJU=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -182,9 +763,7 @@
 					</dict>
 					<dict>
 						<key>Identity</key>
-						<data>
-						zZuNqeAfPr8OE8Umo3L6ZUleN3g=
-						</data>
+						<data>zZuNqeAfPr8OE8Umo3L6ZUleN3g=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -195,9 +774,7 @@
 					</dict>
 					<dict>
 						<key>Identity</key>
-						<data>
-						FrWatFCpwa2rJmrvz06PjPQFrJw=
-						</data>
+						<data>FrWatFCpwa2rJmrvz06PjPQFrJw=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -208,13 +785,22 @@
 					</dict>
 					<dict>
 						<key>Identity</key>
-						<data>
-						TIfeOqWpx5x/R3uqSiP7oOYtydg=
-						</data>
+						<data>TIfeOqWpx5x/R3uqSiP7oOYtydg=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
 							<string>Installer</string>
+						</dict>
+						<key>MatchType</key>
+						<string>Match</string>
+					</dict>
+					<dict>
+						<key>Identity</key>
+						<data>TfU4f+crir4ONBASM0uJk/OZ02Y=</data>
+						<key>MatchFile</key>
+						<dict>
+							<key>NSURLNameKey</key>
+							<string>ESWTgD</string>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
@@ -240,9 +826,7 @@
 				<array>
 					<dict>
 						<key>Identity</key>
-						<data>
-						bGrLF5sjLA8aa7J2mYCTIMwsFSk=
-						</data>
+						<data>bGrLF5sjLA8aa7J2mYCTIMwsFSk=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -253,9 +837,7 @@
 					</dict>
 					<dict>
 						<key>Identity</key>
-						<data>
-						zrsZ/uj9csCXXqmhn+6jtc5VX5Q=
-						</data>
+						<data>zrsZ/uj9csCXXqmhn+6jtc5VX5Q=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -266,9 +848,7 @@
 					</dict>
 					<dict>
 						<key>Identity</key>
-						<data>
-						FQPx19J16XbNlM/XKSngQJ4M92o=
-						</data>
+						<data>FQPx19J16XbNlM/XKSngQJ4M92o=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -279,9 +859,7 @@
 					</dict>
 					<dict>
 						<key>Identity</key>
-						<data>
-						xQrfqUmnCzPXcFDX8OL4a8y8Jc8=
-						</data>
+						<data>xQrfqUmnCzPXcFDX8OL4a8y8Jc8=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -292,9 +870,7 @@
 					</dict>
 					<dict>
 						<key>Identity</key>
-						<data>
-						QDRrOUbXgk049bpxGB9cBoBSAK8=
-						</data>
+						<data>QDRrOUbXgk049bpxGB9cBoBSAK8=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -324,9 +900,7 @@
 				<array>
 					<dict>
 						<key>Identity</key>
-						<data>
-						4rlXh4CuMY29uUmqwyp93mx32Rg=
-						</data>
+						<data>4rlXh4CuMY29uUmqwyp93mx32Rg=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLTypeIdentifierKey</key>
@@ -337,9 +911,7 @@
 					</dict>
 					<dict>
 						<key>Identity</key>
-						<data>
-						u4y8Krko1m+h8X4C/yY0rTikd9Y=
-						</data>
+						<data>u4y8Krko1m+h8X4C/yY0rTikd9Y=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLTypeIdentifierKey</key>
@@ -364,9 +936,7 @@
 		<array>
 			<dict>
 				<key>Identity</key>
-				<data>
-				rj41+KxqKgmr2xfbzjh0uf2ae3s=
-				</data>
+				<data>rj41+KxqKgmr2xfbzjh0uf2ae3s=</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLTypeIdentifierKey</key>
@@ -389,9 +959,7 @@
 		<array>
 			<dict>
 				<key>Identity</key>
-				<data>
-				wIAM1QlbKNpLbKAUaKJ5+1vmkho=
-				</data>
+				<data>wIAM1QlbKNpLbKAUaKJ5+1vmkho=</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -414,9 +982,7 @@
 		<array>
 			<dict>
 				<key>Identity</key>
-				<data>
-				XmhWnTJ3Kked+p5qI7LzrnSyAo8=
-				</data>
+				<data>XmhWnTJ3Kked+p5qI7LzrnSyAo8=</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -439,9 +1005,7 @@
 		<array>
 			<dict>
 				<key>Identity</key>
-				<data>
-				XmhWnTJ3Kked+p5qI7LzrnSyAo8=
-				</data>
+				<data>XmhWnTJ3Kked+p5qI7LzrnSyAo8=</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -469,9 +1033,7 @@
 				<array>
 					<dict>
 						<key>Identity</key>
-						<data>
-						7RGa/CzGYumD/tJRfkTjIc9pXu4=
-						</data>
+						<data>7RGa/CzGYumD/tJRfkTjIc9pXu4=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -482,9 +1044,7 @@
 					</dict>
 					<dict>
 						<key>Identity</key>
-						<data>
-						twPgGR6rqkHhGIxqCY/tNpZHMuI=
-						</data>
+						<data>twPgGR6rqkHhGIxqCY/tNpZHMuI=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -514,9 +1074,7 @@
 				<array>
 					<dict>
 						<key>Identity</key>
-						<data>
-						b3Re9Pn1IZhNhzgwAUjoP1DQGp0=
-						</data>
+						<data>b3Re9Pn1IZhNhzgwAUjoP1DQGp0=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -527,9 +1085,7 @@
 					</dict>
 					<dict>
 						<key>Identity</key>
-						<data>
-						VquuCGQiD8Vu3moSH95na1wi4uk=
-						</data>
+						<data>VquuCGQiD8Vu3moSH95na1wi4uk=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -554,9 +1110,7 @@
 		<array>
 			<dict>
 				<key>Identity</key>
-				<data>
-				ES1OeF42Or/sURVaVTbAcqDaSYY=
-				</data>
+				<data>ES1OeF42Or/sURVaVTbAcqDaSYY=</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -579,9 +1133,7 @@
 		<array>
 			<dict>
 				<key>Identity</key>
-				<data>
-				LiQzk6Tpl9U9PYBRZXGmTxAxMRY=
-				</data>
+				<data>LiQzk6Tpl9U9PYBRZXGmTxAxMRY=</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -604,9 +1156,7 @@
 		<array>
 			<dict>
 				<key>Identity</key>
-				<data>
-				PtsXeryJNP3H1Tf1EVu0+2q0HD8=
-				</data>
+				<data>PtsXeryJNP3H1Tf1EVu0+2q0HD8=</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -629,9 +1179,7 @@
 		<array>
 			<dict>
 				<key>Identity</key>
-				<data>
-				N8S8lPLAjpCkeCX+eyr7zpCLXXQ=
-				</data>
+				<data>N8S8lPLAjpCkeCX+eyr7zpCLXXQ=</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -659,9 +1207,7 @@
 				<array>
 					<dict>
 						<key>Identity</key>
-						<data>
-						wrgfcFZwyDfAv1ot3R45jpZ8Cgg=
-						</data>
+						<data>wrgfcFZwyDfAv1ot3R45jpZ8Cgg=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -672,9 +1218,7 @@
 					</dict>
 					<dict>
 						<key>Identity</key>
-						<data>
-						AuJDFX28iAOjZOlBClxBs23mTJU=
-						</data>
+						<data>AuJDFX28iAOjZOlBClxBs23mTJU=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -699,9 +1243,7 @@
 		<array>
 			<dict>
 				<key>Identity</key>
-				<data>
-				1NFICmIzeCAlF8+G78TsJ/MjLw0=
-				</data>
+				<data>1NFICmIzeCAlF8+G78TsJ/MjLw0=</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLTypeIdentifierKey</key>
@@ -715,11 +1257,6 @@
 	<dict>
 		<key>Description</key>
 		<string>OSX.RSPlug.A</string>
-		<key>LaunchServices</key>
-		<dict>
-			<key>LSItemContentType</key>
-			<string>com.apple.installer-package</string>
-		</dict>
 		<key>Matches</key>
 		<array>
 			<dict>
@@ -756,41 +1293,45 @@
 				<string>23212F62696E2F{-2}7368</string>
 			</dict>
 		</array>
-	</dict>
-	<dict>
-		<key>Description</key>
-		<string>OSX.Iservice.A</string>
 		<key>LaunchServices</key>
 		<dict>
 			<key>LSItemContentType</key>
 			<string>com.apple.installer-package</string>
 		</dict>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.Iservice.A</string>
 		<key>Matches</key>
 		<array>
 			<dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>27666F72272073746570206D7573742062652061206E756D6265720025733A25753A206661696C656420617373657274696F6E20602573270A0000002F55736572732F6A61736F6E2F64696172726865612F6165732F6165735F6D6F6465732E63000000625F706F73203D3D2030000062616E0036392E39322E3137372E3134363A3539323031007177666F6A7A6C6B2E66726565686F737469612E636F6D3A31303234000000007374617274757000666600002C000000726F6F74000000002F62696E2F7368</string>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLTypeIdentifierKey</key>
 					<string>public.unix-executable</string>
 				</dict>
-				<key>MatchType</key>
-				<string>Match</string>
-				<key>Pattern</key>
-				<string>27666F72272073746570206D7573742062652061206E756D6265720025733A25753A206661696C656420617373657274696F6E20602573270A0000002F55736572732F6A61736F6E2F64696172726865612F6165732F6165735F6D6F6465732E63000000625F706F73203D3D2030000062616E0036392E39322E3137372E3134363A3539323031007177666F6A7A6C6B2E66726565686F737469612E636F6D3A31303234000000007374617274757000666600002C000000726F6F74000000002F62696E2F7368</string>
 			</dict>
 		</array>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.installer-package</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>OSX.Iservice.B</string>
-		<key>LaunchServices</key>
-		<dict>
-			<key>LSItemContentType</key>
-			<string>com.apple.application-bundle</string>
-		</dict>
 		<key>Matches</key>
 		<array>
 			<dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>27666F72272073746570206D7573742062652061206E756D6265720025733A25753A206661696C656420617373657274696F6E20602573270A0000002F55736572732F6A61736F6E2F64696172726865612F6165732F6165735F6D6F6465732E63000000625F706F73203D3D2030000062616E0036392E39322E3137372E3134363A3539323031007177666F6A7A6C6B2E66726565686F737469612E636F6D3A31303234000000007374617274757000666600002C000000726F6F74000000002F62696E2F7368</string>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -798,28 +1339,24 @@
 					<key>NSURLTypeIdentifierKey</key>
 					<string>public.unix-executable</string>
 				</dict>
-				<key>MatchType</key>
-				<string>Match</string>
-				<key>Pattern</key>
-				<string>27666F72272073746570206D7573742062652061206E756D6265720025733A25753A206661696C656420617373657274696F6E20602573270A0000002F55736572732F6A61736F6E2F64696172726865612F6165732F6165735F6D6F6465732E63000000625F706F73203D3D2030000062616E0036392E39322E3137372E3134363A3539323031007177666F6A7A6C6B2E66726565686F737469612E636F6D3A31303234000000007374617274757000666600002C000000726F6F74000000002F62696E2F7368</string>
 			</dict>
 		</array>
-	</dict>
-	<dict>
-		<key>Description</key>
-		<string>OSX.HellRTS</string>
 		<key>LaunchServices</key>
 		<dict>
 			<key>LSItemContentType</key>
 			<string>com.apple.application-bundle</string>
 		</dict>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.HellRTS</string>
 		<key>Matches</key>
 		<array>
 			<dict>
+				<key>MatchType</key>
+				<string>Match</string>
 				<key>Identity</key>
-				<data>
-				qNzMoqc0sjpk3utUxnQWEUZyMKg=
-				</data>
+				<data>qNzMoqc0sjpk3utUxnQWEUZyMKg=</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -827,14 +1364,12 @@
 					<key>NSURLTypeIdentifierKey</key>
 					<string>com.apple.mach-o-dylib</string>
 				</dict>
-				<key>MatchType</key>
-				<string>Match</string>
 			</dict>
 			<dict>
+				<key>MatchType</key>
+				<string>Match</string>
 				<key>Identity</key>
-				<data>
-				eX17YAgTaOUMt9icXVHF0meoiog=
-				</data>
+				<data>eX17YAgTaOUMt9icXVHF0meoiog=</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -842,32 +1377,30 @@
 					<key>NSURLTypeIdentifierKey</key>
 					<string>com.apple.mach-o-dylib</string>
 				</dict>
-				<key>MatchType</key>
-				<string>Match</string>
 			</dict>
 			<dict>
-				<key>MatchFile</key>
-				<dict>
-					<key>LSDownloadContentTypeKey</key>
-					<string>com.apple.mach-o-executable</string>
-					<key>NSURLTypeIdentifierKey</key>
-					<string>{dyn.*}</string>
-				</dict>
 				<key>MatchType</key>
 				<string>Match</string>
 				<key>Pattern</key>
 				<string>656C6C5261697365722053657276657200165F44454255475F4C4F475F505249564154452E747874*5374617274536572766572203E20212053455256455220524553544152544544*2F7573722F62696E2F64656661756C7473207772697465206C6F67696E77696E646F77204175746F4C61756E636865644170706C69636174696F6E44696374696F6E617279202D61727261792D61646420273C646963743E3C6B65793E486964653C2F6B65793E3C00192F3E3C6B65793E506174683C2F6B65793E3C737472696E673E00113C2F737472696E673E3C2F646963743E27*48656C6C52616973657220536572766572</string>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>{dyn.*}</string>
+					<key>LSDownloadContentTypeKey</key>
+					<string>com.apple.mach-o-executable</string>
+				</dict>
 			</dict>
 		</array>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>OSX.HellRTS</string>
-		<key>LaunchServices</key>
-		<dict>
-			<key>LSItemContentType</key>
-			<string>com.apple.application-file</string>
-		</dict>
 		<key>Matches</key>
 		<array>
 			<dict>
@@ -876,66 +1409,62 @@
 				<key>Matches</key>
 				<array>
 					<dict>
+						<key>MatchType</key>
+						<string>Match</string>
 						<key>Identity</key>
-						<data>
-						qK+o5ka9agLPqoRHNblMUIILufU=
-						</data>
+						<data>qK+o5ka9agLPqoRHNblMUIILufU=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.application-file</string>
 						</dict>
-						<key>MatchType</key>
-						<string>Match</string>
 					</dict>
 					<dict>
+						<key>MatchType</key>
+						<string>Match</string>
 						<key>Identity</key>
-						<data>
-						C6WPVLRLLuih8Unhpobe7t67ebo=
-						</data>
+						<data>C6WPVLRLLuih8Unhpobe7t67ebo=</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.application-file</string>
 						</dict>
-						<key>MatchType</key>
-						<string>Match</string>
 					</dict>
 				</array>
 			</dict>
 		</array>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-file</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>OSX.OpinionSpy</string>
-		<key>LaunchServices</key>
-		<dict>
-			<key>LSItemContentType</key>
-			<string>{(com.sun.java-archive|com.apple.application-bundle)}</string>
-		</dict>
 		<key>Matches</key>
 		<array>
 			<dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>504B010214000A0000000800547D8B3B9B0231BC{4}502D0700250000000000{12}636F6D2F697A666F7267652F697A7061636B2F70616E656C732F706F696E7374616C6C6572</string>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLTypeIdentifierKey</key>
 					<string>com.sun.java-archive</string>
 				</dict>
-				<key>MatchType</key>
-				<string>Match</string>
-				<key>Pattern</key>
-				<string>504B010214000A0000000800547D8B3B9B0231BC{4}502D0700250000000000{12}636F6D2F697A666F7267652F697A7061636B2F70616E656C732F706F696E7374616C6C6572</string>
 			</dict>
 		</array>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>{(com.sun.java-archive|com.apple.application-bundle)}</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>OSX.MacDefender.A</string>
-		<key>LaunchServices</key>
-		<dict>
-			<key>LSItemContentType</key>
-			<string>com.apple.installer-meta-package</string>
-		</dict>
 		<key>Matches</key>
 		<array>
 			<dict>
@@ -961,15 +1490,15 @@
 				<string>436F6E74726F6C43656E746572442E6E6962*5669727573466F756E642E706E67*57616C6C65742E706E67*61666669642E747874</string>
 			</dict>
 		</array>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.installer-meta-package</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>OSX.MacDefender.B</string>
-		<key>LaunchServices</key>
-		<dict>
-			<key>LSItemContentType</key>
-			<string>com.apple.installer-package</string>
-		</dict>
 		<key>Matches</key>
 		<array>
 			<dict>
@@ -1016,34 +1545,26 @@
 						<key>Matches</key>
 						<array>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								A/ziWngj5jE5
-								dSUGZo7t7a5N
-								M7c=
-								</data>
+								<data>A/ziWngj5jE5dSUGZo7t7a5NM7c=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Description.plist</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								Dc6s0ettJRWb
-								v5QIv6C3XdDq
-								wYE=
-								</data>
+								<data>Dc6s0ettJRWbv5QIv6C3XdDqwYE=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Archive.sizes</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 						</array>
 					</dict>
@@ -1053,34 +1574,26 @@
 						<key>Matches</key>
 						<array>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								EZHtIrPzp1eO
-								DO34mT9tZHpz
-								ArE=
-								</data>
+								<data>EZHtIrPzp1eODO34mT9tZHpzArE=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Description.plist</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								Dc6s0ettJRWb
-								v5QIv6C3XdDq
-								wYE=
-								</data>
+								<data>Dc6s0ettJRWbv5QIv6C3XdDqwYE=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Archive.sizes</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 						</array>
 					</dict>
@@ -1090,34 +1603,26 @@
 						<key>Matches</key>
 						<array>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								X9R+I746Ki3l
-								JjmMU7wn68R5
-								TmE=
-								</data>
+								<data>X9R+I746Ki3lJjmMU7wn68R5TmE=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Description.plist</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								Dc6s0ettJRWb
-								v5QIv6C3XdDq
-								wYE=
-								</data>
+								<data>Dc6s0ettJRWbv5QIv6C3XdDqwYE=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Archive.sizes</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 						</array>
 					</dict>
@@ -1127,34 +1632,26 @@
 						<key>Matches</key>
 						<array>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								axtdeZu8dm9W
-								TIOMlluvLKMV
-								At8=
-								</data>
+								<data>axtdeZu8dm9WTIOMlluvLKMVAt8=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Description.plist</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								Dc6s0ettJRWb
-								v5QIv6C3XdDq
-								wYE=
-								</data>
+								<data>Dc6s0ettJRWbv5QIv6C3XdDqwYE=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Archive.sizes</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 						</array>
 					</dict>
@@ -1164,34 +1661,26 @@
 						<key>Matches</key>
 						<array>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								frVwL3BuNwzt
-								kQ3TD3P+8+cl
-								wrs=
-								</data>
+								<data>frVwL3BuNwztkQ3TD3P+8+clwrs=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Description.plist</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								eBXEPt1DHW8K
-								ltqOFmNH827p
-								+TI=
-								</data>
+								<data>eBXEPt1DHW8KltqOFmNH827p+TI=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Archive.sizes</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 						</array>
 					</dict>
@@ -1201,34 +1690,26 @@
 						<key>Matches</key>
 						<array>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								oXJzipG62lln
-								EB6dPX7y98BY
-								t1s=
-								</data>
+								<data>oXJzipG62llnEB6dPX7y98BYt1s=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Description.plist</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								Dc6s0ettJRWb
-								v5QIv6C3XdDq
-								wYE=
-								</data>
+								<data>Dc6s0ettJRWbv5QIv6C3XdDqwYE=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Archive.sizes</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 						</array>
 					</dict>
@@ -1238,34 +1719,26 @@
 						<key>Matches</key>
 						<array>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								s1ACH4D/bazT
-								GlPYRG0h4zPm
-								h5A=
-								</data>
+								<data>s1ACH4D/bazTGlPYRG0h4zPmh5A=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Description.plist</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								Dc6s0ettJRWb
-								v5QIv6C3XdDq
-								wYE=
-								</data>
+								<data>Dc6s0ettJRWbv5QIv6C3XdDqwYE=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Archive.sizes</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 						</array>
 					</dict>
@@ -1275,34 +1748,26 @@
 						<key>Matches</key>
 						<array>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								64dqT9iT/VTa
-								EFfYVPUEP2wU
-								S2c=
-								</data>
+								<data>64dqT9iT/VTaEFfYVPUEP2wUS2c=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Description.plist</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								NZYHDtwLrc+e
-								KfSxFy8AzruG
-								M5Y=
-								</data>
+								<data>NZYHDtwLrc+eKfSxFy8AzruGM5Y=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Archive.sizes</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 						</array>
 					</dict>
@@ -1312,49 +1777,41 @@
 						<key>Matches</key>
 						<array>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								jPzhuB4DJCw2
-								3krUUPGZ9vTX
-								aEE=
-								</data>
+								<data>jPzhuB4DJCw23krUUPGZ9vTXaEE=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Description.plist</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 							<dict>
+								<key>MatchType</key>
+								<string>Match</string>
 								<key>Identity</key>
-								<data>
-								Dc6s0ettJRWb
-								v5QIv6C3XdDq
-								wYE=
-								</data>
+								<data>Dc6s0ettJRWbv5QIv6C3XdDqwYE=</data>
 								<key>MatchFile</key>
 								<dict>
 									<key>NSURLNameKey</key>
 									<string>Archive.sizes</string>
 								</dict>
-								<key>MatchType</key>
-								<string>Match</string>
 							</dict>
 						</array>
 					</dict>
 				</array>
 			</dict>
 		</array>
-	</dict>
-	<dict>
-		<key>Description</key>
-		<string>OSX.QHost.WB.A</string>
 		<key>LaunchServices</key>
 		<dict>
 			<key>LSItemContentType</key>
 			<string>com.apple.installer-package</string>
 		</dict>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.QHost.WB.A</string>
 		<key>Matches</key>
 		<array>
 			<dict>
@@ -1369,10 +1826,6 @@
 				<string>3C6B65793E434642756E646C654964656E7469666965723C2F6B65793E0A093C737472696E673E636F6D2E466C617368506C617965722E666C617368706C617965722E706B673C2F737472696E673E*3C6B65793E4946506B67466C6167417574686F72697A6174696F6E416374696F6E3C2F6B65793E0A093C737472696E673E526F6F74417574686F72697A6174696F6E3C2F737472696E673E</string>
 			</dict>
 			<dict>
-				<key>Identity</key>
-				<data>
-				loQw8VAPxHW2UH88HVdXFMeFgBo=
-				</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -1380,42 +1833,42 @@
 				</dict>
 				<key>MatchType</key>
 				<string>Match</string>
+				<key>Identity</key>
+				<data>loQw8VAPxHW2UH88HVdXFMeFgBo=</data>
 			</dict>
 		</array>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.installer-package</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>OSX.Revir.A</string>
+		<key>Matches</key>
+		<array>
+			<dict>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
+				</dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Identity</key>
+				<data>YLDvA7ZdCOTqdTxjqT0mRn6blT4=</data>
+			</dict>
+		</array>
 		<key>LaunchServices</key>
 		<dict>
 			<key>LSItemContentType</key>
 			<string>public.unix-executable</string>
 		</dict>
-		<key>Matches</key>
-		<array>
-			<dict>
-				<key>Identity</key>
-				<data>
-				YLDvA7ZdCOTqdTxjqT0mRn6blT4=
-				</data>
-				<key>MatchFile</key>
-				<dict>
-					<key>NSURLTypeIdentifierKey</key>
-					<string>public.unix-executable</string>
-				</dict>
-				<key>MatchType</key>
-				<string>Match</string>
-			</dict>
-		</array>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>OSX.FlashBack.A</string>
-		<key>LaunchServices</key>
-		<dict>
-			<key>LSItemContentType</key>
-			<string>com.apple.installer-package-archive</string>
-		</dict>
 		<key>Matches</key>
 		<array>
 			<dict>
@@ -1424,199 +1877,181 @@
 				<key>Matches</key>
 				<array>
 					<dict>
-						<key>Identity</key>
-						<data>
-						TMog/+ZBOjQXbaq5sHO81/eKArk=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>200000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>200000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>TMog/+ZBOjQXbaq5sHO81/eKArk=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						K2nXClXm7/yr5TFzNMCcg+jWFes=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>200000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>200000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>K2nXClXm7/yr5TFzNMCcg+jWFes=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						vV5UHuCuughPELEUlFnbeJhnfkA=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>200000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>200000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>vV5UHuCuughPELEUlFnbeJhnfkA=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						Az3la6fU5RmIOFMMdcdXDNWZbag=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>200000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>200000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>Az3la6fU5RmIOFMMdcdXDNWZbag=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						qZ9lHNzvN2ZXJXbF2rWLpIwIGcA=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>200000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>200000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>qZ9lHNzvN2ZXJXbF2rWLpIwIGcA=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						baJv0gq7SBXFb2OJJNyCz2ymXK8=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>200000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>200000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>baJv0gq7SBXFb2OJJNyCz2ymXK8=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						/9zY+0aX1MiFE7mcx0jnPPUPkYY=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>200000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>200000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>/9zY+0aX1MiFE7mcx0jnPPUPkYY=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						AmEHCVs2fXwSSe9601bs1hPr6BQ=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>200000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>200000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>AmEHCVs2fXwSSe9601bs1hPr6BQ=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						AqNeLvPM31DQdVsntCwh6M6FfQk=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>200000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>200000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>AqNeLvPM31DQdVsntCwh6M6FfQk=</data>
 					</dict>
 				</array>
 			</dict>
 		</array>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.installer-package-archive</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>OSX.DevilRobber.A</string>
-		<key>LaunchServices</key>
-		<dict>
-			<key>LSItemContentType</key>
-			<string>com.apple.application-bundle</string>
-		</dict>
 		<key>Matches</key>
 		<array>
 			<dict>
-				<key>MatchFile</key>
-				<dict>
-					<key>NSURLNameKey</key>
-					<string>preflight</string>
-					<key>NSURLTypeIdentifierKey</key>
-					<string>public.unix-executable</string>
-				</dict>
 				<key>MatchType</key>
 				<string>Match</string>
 				<key>Pattern</key>
 				<string>504C4953545F4E414D453D2224484F4D452F4C6962726172792F4C61756E63684167656E74732F636F6D2E6170706C652E6C6567696F6E2E706C69737422*63686D6F64202B78202224484F4D452F244D41494E5F4449522F24455845435F4E414D4522*636F6D2E6170706C652E6C6567696F6E</string>
+				<key>MatchFile</key>
+				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
+					<key>NSURLNameKey</key>
+					<string>preflight</string>
+				</dict>
 			</dict>
 			<dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>3C6B65793E434642756E646C6545786563757461626C653C2F6B65793E*3C737472696E673E707265666C696768743C2F737472696E673E</string>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
 					<string>Info.plist</string>
 				</dict>
+			</dict>
+			<dict>
 				<key>MatchType</key>
 				<string>Match</string>
 				<key>Pattern</key>
-				<string>3C6B65793E434642756E646C6545786563757461626C653C2F6B65793E*3C737472696E673E707265666C696768743C2F737472696E673E</string>
-			</dict>
-			<dict>
+				<string>446961626C6F4D696E65722F7461726765742F446961626C6F4D696E65722E6A6172</string>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLTypeIdentifierKey</key>
 					<string>public.zip-archive</string>
 				</dict>
-				<key>MatchType</key>
-				<string>Match</string>
-				<key>Pattern</key>
-				<string>446961626C6F4D696E65722F7461726765742F446961626C6F4D696E65722E6A6172</string>
 			</dict>
 		</array>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>OSX.FlashBack.B</string>
-		<key>LaunchServices</key>
-		<dict>
-			<key>LSItemContentType</key>
-			<string>com.apple.installer-package-archive</string>
-		</dict>
 		<key>Matches</key>
 		<array>
 			<dict>
@@ -1625,125 +2060,115 @@
 				<key>Matches</key>
 				<array>
 					<dict>
-						<key>Identity</key>
-						<data>
-						/XgQtEWKWDzKnGEL31pBgbrrIjM=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>200000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>200000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>/XgQtEWKWDzKnGEL31pBgbrrIjM=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						cASuxrgZO4w+gDLXINwSGyO5Ibc=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>200000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>200000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>cASuxrgZO4w+gDLXINwSGyO5Ibc=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						uHqU3dk/wDYhUFb7vtkjgO78rcI=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>200000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>200000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>uHqU3dk/wDYhUFb7vtkjgO78rcI=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						P0DI2TvH0y08SO7azAzUEc8nPbo=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>200000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>200000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>P0DI2TvH0y08SO7azAzUEc8nPbo=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						4mbdhWAIhjcE3Zr3YIpYE32JNro=
-						</data>
 						<key>MatchFile</key>
 						<dict>
+							<key>NSURLTypeIdentifierKey</key>
+							<string>com.apple.installer-package-archive</string>
 							<key>NSURLFileSizeKey</key>
 							<integer>300000</integer>
-							<key>NSURLTypeIdentifierKey</key>
-							<string>com.apple.installer-package-archive</string>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>4mbdhWAIhjcE3Zr3YIpYE32JNro=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						e21e3wSjV9Ej8tohnwx8CF/6Z/w=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>300000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>300000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>e21e3wSjV9Ej8tohnwx8CF/6Z/w=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						KESEsTAi6AmVa7ILa6dBvSwKcRc=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>300000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>300000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>KESEsTAi6AmVa7ILa6dBvSwKcRc=</data>
 					</dict>
 				</array>
 			</dict>
 		</array>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.installer-package-archive</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>OSX.DevilRobber.B</string>
-		<key>LaunchServices</key>
-		<dict>
-			<key>LSItemContentType</key>
-			<string>com.apple.application-bundle</string>
-		</dict>
 		<key>Matches</key>
 		<array>
 			<dict>
+				<key>MatchType</key>
+				<string>Match</string>
+				<key>Pattern</key>
+				<string>455845435F4E414D453D*53485F4E414D453D*415243484956455F4E414D453D*504C4953545F4E414D453D2224484F4D452F4C6962726172792F4C61756E63684167656E74732F636F6D2E6170706C652E6D6F707065722E706C697374220A*63686D6F64202B78202224484F4D452F244D41494E5F4449522F24455845435F4E414D4522*63686D6F64202B78202224484F4D452F244D41494E5F4449522F645F73746172742E736822*3C737472696E673E636F6D2E6170706C652E6D6F707065723C2F737472696E673E</string>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -1751,32 +2176,28 @@
 					<key>NSURLTypeIdentifierKey</key>
 					<string>public.unix-executable</string>
 				</dict>
+			</dict>
+			<dict>
 				<key>MatchType</key>
 				<string>Match</string>
 				<key>Pattern</key>
-				<string>455845435F4E414D453D*53485F4E414D453D*415243484956455F4E414D453D*504C4953545F4E414D453D2224484F4D452F4C6962726172792F4C61756E63684167656E74732F636F6D2E6170706C652E6D6F707065722E706C697374220A*63686D6F64202B78202224484F4D452F244D41494E5F4449522F24455845435F4E414D4522*63686D6F64202B78202224484F4D452F244D41494E5F4449522F645F73746172742E736822*3C737472696E673E636F6D2E6170706C652E6D6F707065723C2F737472696E673E</string>
-			</dict>
-			<dict>
+				<string>645F73746172742E7368*645F73746F702E7368</string>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLTypeIdentifierKey</key>
 					<string>public.data</string>
 				</dict>
-				<key>MatchType</key>
-				<string>Match</string>
-				<key>Pattern</key>
-				<string>645F73746172742E7368*645F73746F702E7368</string>
 			</dict>
 		</array>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>OSX.FlashBack.C</string>
-		<key>LaunchServices</key>
-		<dict>
-			<key>LSItemContentType</key>
-			<string>com.apple.installer-package-archive</string>
-		</dict>
 		<key>Matches</key>
 		<array>
 			<dict>
@@ -1785,98 +2206,91 @@
 				<key>Matches</key>
 				<array>
 					<dict>
-						<key>Identity</key>
-						<data>
-						EvgU74JYyqK4S/djr4Mz5zi133Y=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>300000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>300000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>EvgU74JYyqK4S/djr4Mz5zi133Y=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						Ex2yZoTPoXpnX1/5pnqCzihkrJU=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>300000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>300000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>Ex2yZoTPoXpnX1/5pnqCzihkrJU=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						FA+6TK+io9/xKMXM7rEs4+hG+is=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>300000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>300000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>FA+6TK+io9/xKMXM7rEs4+hG+is=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						WF4eiqSGgLosTBWcakIvBaXKHlw=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>300000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>300000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>WF4eiqSGgLosTBWcakIvBaXKHlw=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						OStrEQzsGWAEYGHTfKA2jRx2nGU=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>300000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>300000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>OStrEQzsGWAEYGHTfKA2jRx2nGU=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						uVoqmhWmfB9N/OHz7o70Qp+GdHw=
-						</data>
 						<key>MatchFile</key>
 						<dict>
-							<key>NSURLFileSizeKey</key>
-							<integer>300000</integer>
 							<key>NSURLTypeIdentifierKey</key>
 							<string>com.apple.installer-package-archive</string>
+							<key>NSURLFileSizeKey</key>
+							<integer>300000</integer>
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>uVoqmhWmfB9N/OHz7o70Qp+GdHw=</data>
 					</dict>
 				</array>
 			</dict>
 		</array>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.installer-package-archive</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
@@ -1890,9 +2304,7 @@
 		<array>
 			<dict>
 				<key>Identity</key>
-				<data>
-				Hu3ehyzBRJKy5lcCKcD5vFSz8lg=
-				</data>
+				<data>Hu3ehyzBRJKy5lcCKcD5vFSz8lg=</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -1906,11 +2318,6 @@
 	<dict>
 		<key>Description</key>
 		<string>OSX.FileSteal.i</string>
-		<key>LaunchServices</key>
-		<dict>
-			<key>LSItemContentType</key>
-			<string>com.apple.application-bundle</string>
-		</dict>
 		<key>Matches</key>
 		<array>
 			<dict>
@@ -1927,10 +2334,10 @@
 			<dict>
 				<key>MatchFile</key>
 				<dict>
-					<key>NSURLNameKey</key>
-					<string>FileBackup</string>
 					<key>NSURLTypeIdentifierKey</key>
 					<string>public.unix-executable</string>
+					<key>NSURLNameKey</key>
+					<string>FileBackup</string>
 				</dict>
 				<key>MatchType</key>
 				<string>Match</string>
@@ -1938,44 +2345,42 @@
 				<string>46696C654261636B757041707044656C6567617465*5461736B57726170706572*2F7573722F62696E2F6375726C*5A697055706C6F6164</string>
 			</dict>
 		</array>
-	</dict>
-	<dict>
-		<key>Description</key>
-		<string>OSX.Revir.ii</string>
 		<key>LaunchServices</key>
 		<dict>
 			<key>LSItemContentType</key>
 			<string>com.apple.application-bundle</string>
 		</dict>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.Revir.ii</string>
 		<key>Matches</key>
 		<array>
 			<dict>
-				<key>Identity</key>
-				<data>
-				IBluqsC/YMoRhKUXuItWS/gNZLI=
-				</data>
 				<key>MatchFile</key>
 				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
 					<key>NSURLFileSizeKey</key>
 					<integer>50000</integer>
 					<key>NSURLNameKey</key>
 					<string>FileAgent</string>
-					<key>NSURLTypeIdentifierKey</key>
-					<string>public.unix-executable</string>
 				</dict>
 				<key>MatchType</key>
 				<string>Match</string>
+				<key>Identity</key>
+				<data>IBluqsC/YMoRhKUXuItWS/gNZLI=</data>
 			</dict>
 		</array>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>OSX.Mdropper.i</string>
-		<key>LaunchServices</key>
-		<dict>
-			<key>LSItemContentType</key>
-			<string>com.microsoft.word.doc</string>
-		</dict>
 		<key>Matches</key>
 		<array>
 			<dict>
@@ -1990,15 +2395,15 @@
 				<string>2F746D702F6C61756E63682D6873002F746D702F6C61756E63682D687365002F746D702F*0023212F62696E2F73680A2F746D702F6C61756E63682D68736520260A6F70656E202F746D702F66696C652E646F6320260A0A*00005F5F504147455A45524F00*005F5F6D685F657865637574655F686561646572</string>
 			</dict>
 		</array>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.microsoft.word.doc</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
 		<string>OSX.FkCodec.i</string>
-		<key>LaunchServices</key>
-		<dict>
-			<key>LSItemContentType</key>
-			<string>com.apple.application-bundle</string>
-		</dict>
 		<key>Matches</key>
 		<array>
 			<dict>
@@ -2028,35 +2433,38 @@
 				<string>636F6D2E7768697465736D6F6B652E*7B45454637333633322D413038352D346664332D413737382D4543443832433843423239377D</string>
 			</dict>
 		</array>
-	</dict>
-	<dict>
-		<key>Description</key>
-		<string>OSX.MaControl.i</string>
 		<key>LaunchServices</key>
 		<dict>
 			<key>LSItemContentType</key>
 			<string>com.apple.application-bundle</string>
 		</dict>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>OSX.MaControl.i</string>
 		<key>Matches</key>
 		<array>
 			<dict>
-				<key>Identity</key>
-				<data>
-				iob/gI0JDUACAaH5TY9wap2hFso=
-				</data>
 				<key>MatchFile</key>
 				<dict>
+					<key>NSURLTypeIdentifierKey</key>
+					<string>public.unix-executable</string>
 					<key>NSURLFileSizeKey</key>
 					<integer>110000</integer>
 					<key>NSURLNameKey</key>
 					<string>iCnat</string>
-					<key>NSURLTypeIdentifierKey</key>
-					<string>public.unix-executable</string>
 				</dict>
 				<key>MatchType</key>
 				<string>Match</string>
+				<key>Identity</key>
+				<data>iob/gI0JDUACAaH5TY9wap2hFso=</data>
 			</dict>
 		</array>
+		<key>LaunchServices</key>
+		<dict>
+			<key>LSItemContentType</key>
+			<string>com.apple.application-bundle</string>
+		</dict>
 	</dict>
 	<dict>
 		<key>Description</key>
@@ -2069,10 +2477,8 @@
 		<key>Matches</key>
 		<array>
 			<dict>
-				<key>Identity</key>
-				<data>
-				Jl2v0JeMCzJUsawn2+21lZNyLS0=
-				</data>
+				<key>MatchType</key>
+				<string>Match</string>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -2080,8 +2486,8 @@
 					<key>NSURLTypeIdentifierKey</key>
 					<string>public.unix-executable</string>
 				</dict>
-				<key>MatchType</key>
-				<string>Match</string>
+				<key>Identity</key>
+				<data>Jl2v0JeMCzJUsawn2+21lZNyLS0=</data>
 			</dict>
 		</array>
 	</dict>
@@ -2096,10 +2502,8 @@
 		<key>Matches</key>
 		<array>
 			<dict>
-				<key>Identity</key>
-				<data>
-				eCMS23ZqQjN68wCTov01ju7Zf1M=
-				</data>
+				<key>MatchType</key>
+				<string>Match</string>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -2107,8 +2511,8 @@
 					<key>NSURLTypeIdentifierKey</key>
 					<string>public.unix-executable</string>
 				</dict>
-				<key>MatchType</key>
-				<string>Match</string>
+				<key>Identity</key>
+				<data>eCMS23ZqQjN68wCTov01ju7Zf1M=</data>
 			</dict>
 		</array>
 	</dict>
@@ -2123,10 +2527,8 @@
 		<key>Matches</key>
 		<array>
 			<dict>
-				<key>Identity</key>
-				<data>
-				bCtHOEIp66bzmMdKC6FRazpnRyM=
-				</data>
+				<key>MatchType</key>
+				<string>Match</string>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -2134,8 +2536,8 @@
 					<key>NSURLTypeIdentifierKey</key>
 					<string>public.unix-executable</string>
 				</dict>
-				<key>MatchType</key>
-				<string>Match</string>
+				<key>Identity</key>
+				<data>bCtHOEIp66bzmMdKC6FRazpnRyM=</data>
 			</dict>
 		</array>
 	</dict>
@@ -2150,10 +2552,8 @@
 		<key>Matches</key>
 		<array>
 			<dict>
-				<key>Identity</key>
-				<data>
-				oH2El1GUBHKPQxruwc010378HLs=
-				</data>
+				<key>MatchType</key>
+				<string>Match</string>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -2161,8 +2561,8 @@
 					<key>NSURLTypeIdentifierKey</key>
 					<string>public.unix-executable</string>
 				</dict>
-				<key>MatchType</key>
-				<string>Match</string>
+				<key>Identity</key>
+				<data>oH2El1GUBHKPQxruwc010378HLs=</data>
 			</dict>
 		</array>
 	</dict>
@@ -2172,10 +2572,6 @@
 		<key>Matches</key>
 		<array>
 			<dict>
-				<key>Identity</key>
-				<data>
-				M5WFbOgfK3OC3ucmAveYtkLxQUA=
-				</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -2183,6 +2579,8 @@
 				</dict>
 				<key>MatchType</key>
 				<string>Match</string>
+				<key>Identity</key>
+				<data>M5WFbOgfK3OC3ucmAveYtkLxQUA=</data>
 			</dict>
 		</array>
 	</dict>
@@ -2197,10 +2595,8 @@
 		<key>Matches</key>
 		<array>
 			<dict>
-				<key>Identity</key>
-				<data>
-				9jgFFI2F2LdXpQWAu6EeAsGSorg=
-				</data>
+				<key>MatchType</key>
+				<string>Match</string>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -2208,8 +2604,8 @@
 					<key>NSURLTypeIdentifierKey</key>
 					<string>public.unix-executable</string>
 				</dict>
-				<key>MatchType</key>
-				<string>Match</string>
+				<key>Identity</key>
+				<data>9jgFFI2F2LdXpQWAu6EeAsGSorg=</data>
 			</dict>
 		</array>
 	</dict>
@@ -2224,10 +2620,8 @@
 		<key>Matches</key>
 		<array>
 			<dict>
-				<key>Identity</key>
-				<data>
-				/lmjCeVok3TbpQvHNJ1iFI8auao=
-				</data>
+				<key>MatchType</key>
+				<string>Match</string>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -2235,8 +2629,8 @@
 					<key>NSURLTypeIdentifierKey</key>
 					<string>public.unix-executable</string>
 				</dict>
-				<key>MatchType</key>
-				<string>Match</string>
+				<key>Identity</key>
+				<data>/lmjCeVok3TbpQvHNJ1iFI8auao=</data>
 			</dict>
 		</array>
 	</dict>
@@ -2251,10 +2645,6 @@
 		<key>Matches</key>
 		<array>
 			<dict>
-				<key>Identity</key>
-				<data>
-				QUSK/Le4V4ZqX2530+86OTWY+R4=
-				</data>
 				<key>MatchFile</key>
 				<dict>
 					<key>NSURLNameKey</key>
@@ -2264,6 +2654,8 @@
 				</dict>
 				<key>MatchType</key>
 				<string>Match</string>
+				<key>Identity</key>
+				<data>QUSK/Le4V4ZqX2530+86OTWY+R4=</data>
 			</dict>
 		</array>
 	</dict>
@@ -2283,10 +2675,6 @@
 				<key>Matches</key>
 				<array>
 					<dict>
-						<key>Identity</key>
-						<data>
-						7f8M0BEe4eOoXb0JYUhb4Umb22Y=
-						</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -2296,12 +2684,10 @@
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>7f8M0BEe4eOoXb0JYUhb4Umb22Y=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						Qp7WvO2bsYuV56W13pp7AjoqfSw=
-						</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -2311,12 +2697,10 @@
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>Qp7WvO2bsYuV56W13pp7AjoqfSw=</data>
 					</dict>
 					<dict>
-						<key>Identity</key>
-						<data>
-						8aMuU0OdOtyWejtH+Qcd5sEPzk4=
-						</data>
 						<key>MatchFile</key>
 						<dict>
 							<key>NSURLNameKey</key>
@@ -2326,6 +2710,8 @@
 						</dict>
 						<key>MatchType</key>
 						<string>Match</string>
+						<key>Identity</key>
+						<data>8aMuU0OdOtyWejtH+Qcd5sEPzk4=</data>
 					</dict>
 				</array>
 			</dict>

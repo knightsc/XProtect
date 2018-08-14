@@ -4,10 +4,40 @@
 <dict>
 	<key>JavaWebComponentVersionMinimum</key>
 	<string>1.6.0_45-b06-451</string>
+	<key>Version</key>
+	<real>2081</real>
 	<key>PlugInBlacklist</key>
 	<dict>
 		<key>10</key>
 		<dict>
+			<key>com.microsoft.SilverlightPlugin</key>
+			<dict>
+				<key>MinimumPlugInBundleVersion</key>
+				<string>5.1.41212.0</string>
+				<key>PlugInUpdateAvailable</key>
+				<true/>
+			</dict>
+			<key>com.macromedia.Flash Player.plugin</key>
+			<dict>
+				<key>MinimumPlugInBundleVersion</key>
+				<string>22.0.0.192</string>
+				<key>PlugInUpdateAvailable</key>
+				<true/>
+			</dict>
+			<key>com.macromedia.Flash Player ESR.plugin</key>
+			<dict>
+				<key>MinimumPlugInBundleVersion</key>
+				<string>18.0.0.360</string>
+				<key>PlugInUpdateAvailable</key>
+				<true/>
+			</dict>
+			<key>com.oracle.java.JavaAppletPlugin</key>
+			<dict>
+				<key>MinimumPlugInBundleVersion</key>
+				<string>1.8.51.16</string>
+				<key>PlugInUpdateAvailable</key>
+				<true/>
+			</dict>
 			<key>com.apple.java.JavaAppletPlugin</key>
 			<dict>
 				<key>MinimumPlugInBundleVersion</key>
@@ -22,30 +52,176 @@
 				<key>PlugInUpdateAvailable</key>
 				<true/>
 			</dict>
-			<key>com.macromedia.Flash Player ESR.plugin</key>
-			<dict>
-				<key>MinimumPlugInBundleVersion</key>
-				<string>13.0.0.289</string>
-				<key>PlugInUpdateAvailable</key>
-				<true/>
-			</dict>
-			<key>com.macromedia.Flash Player.plugin</key>
-			<dict>
-				<key>MinimumPlugInBundleVersion</key>
-				<string>17.0.0.188</string>
-				<key>PlugInUpdateAvailable</key>
-				<true/>
-			</dict>
-			<key>com.oracle.java.JavaAppletPlugin</key>
-			<dict>
-				<key>MinimumPlugInBundleVersion</key>
-				<string>1.7.25.15</string>
-				<key>PlugInUpdateAvailable</key>
-				<true/>
-			</dict>
 		</dict>
 	</dict>
-	<key>Version</key>
-	<integer>2061</integer>
+	<key>ExtensionBlacklist</key>
+	<dict>
+		<key>Extensions</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.searchtrust.safariext</string>
+				<key>Developer Identifier</key>
+				<string>9V6HEQPZK3</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.leperdvil.safari</string>
+				<key>Developer Identifier</key>
+				<string>Y7QR7RXE99</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>info.trovi</string>
+				<key>Developer Identifier</key>
+				<string>2GLUU75QJH</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>info.searchquick</string>
+				<key>Developer Identifier</key>
+				<string>2GLUU75QJH</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.searchnt.safari</string>
+				<key>Developer Identifier</key>
+				<string>4VNW4T5764</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.spigot.safari.searchme</string>
+				<key>Developer Identifier</key>
+				<string>B652554955</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.spigot.safari.ebayshopassist</string>
+				<key>Developer Identifier</key>
+				<string>B652554955</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.smokycap.safari</string>
+				<key>Developer Identifier</key>
+				<string>JSKF7A7MSD</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.searchconnect.safariext</string>
+				<key>Developer Identifier</key>
+				<string>97VW76A9RY</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.codec.extension</string>
+				<key>Developer Identifier</key>
+				<string>9FHEC8C8B8</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.zako.chatzum</string>
+				<key>Developer Identifier</key>
+				<string>87X4MN23Z9</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.adobe.flash</string>
+				<key>Developer Identifier</key>
+				<string>E728F995AB</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.optimalcycling.safari.popupblocker</string>
+				<key>Developer Identifier</key>
+				<string>6AR4TE4Z39</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.genieo.safari</string>
+				<key>Developer Identifier</key>
+				<string>K444F5Z2ZH</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.app65867</string>
+				<key>Developer Identifier</key>
+				<string>T5PTSKMRT6</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.defaultsearch.safariext</string>
+				<key>Developer Identifier</key>
+				<string>544JR7KQT8</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.jbsearch.safariext</string>
+				<key>Developer Identifier</key>
+				<string>NRQCQ6DVMZ</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.mtsearch.safariext</string>
+				<key>Developer Identifier</key>
+				<string>HL68H687N8</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.rohit.MacMInSale</string>
+				<key>Developer Identifier</key>
+				<string>42F2G9DQ47</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.tabgreg.safariext</string>
+				<key>Developer Identifier</key>
+				<string>LNWBP677VB</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.gold.safari</string>
+				<key>Developer Identifier</key>
+				<string>NHEDAZU9T4</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.eliaho.safari</string>
+				<key>Developer Identifier</key>
+				<string>6JM6T7HSQN</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.nariabox.safari</string>
+				<key>Developer Identifier</key>
+				<string>DXBF7F94N3</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.diigo.safari.awesomeScreenshot</string>
+				<key>Developer Identifier</key>
+				<string>5DXNM3K2CT</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.portsayd.safari</string>
+				<key>Developer Identifier</key>
+				<string>YZG972RG8Z</string>
+			</dict>
+		</array>
+	</dict>
+	<key>GKChecks</key>
+	<dict>
+		<key>CodeSignatureIDs</key>
+		<array>
+			<string>com.apple.a2p</string>
+			<string>com.apple.ibtool</string>
+			<string>com.apple.pythonw</string>
+			<string>com.apple.python</string>
+			<string>com.apple.ictool</string>
+			<string>com.apple.actool</string>
+			<string>com.apple.redis-server</string>
+		</array>
+	</dict>
 </dict>
 </plist>
