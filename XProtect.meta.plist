@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Version</key>
-    <integer>114</integer>
+    <real>1102</real>
     <key>PlugInBlacklist</key>
     <dict>
         <key>10</key>
@@ -12,28 +12,41 @@
             <dict>
                 <key>MinimumPlugInBundleVersion</key>
                 <string>5.1.41212.0</string>
+                <key>PlugInUpdateAvailable</key>
+                <true/>
             </dict>
             <key>com.macromedia.Flash Player.plugin</key>
             <dict>
                 <key>MinimumPlugInBundleVersion</key>
                 <string>27.0.0.183</string>
+                <key>PlugInUpdateAvailable</key>
+                <true/>
             </dict>
             <key>com.macromedia.Flash Player ESR.plugin</key>
             <dict>
                 <key>MinimumPlugInBundleVersion</key>
                 <string>18.0.0.382</string>
+                <key>PlugInUpdateAvailable</key>
+                <true/>
+            </dict>
+            <key>com.oracle.java.JavaAppletPlugin</key>
+            <dict>
+                <key>MinimumPlugInBundleVersion</key>
+                <string>1.8.51.16</string>
+                <key>PlugInUpdateAvailable</key>
+                <true/>
             </dict>
             <key>com.apple.java.JavaAppletPlugin</key>
             <dict>
                 <key>MinimumPlugInBundleVersion</key>
-                <string>13.9.7</string>
+                <string>14.8.0</string>
                 <key>PlugInUpdateAvailable</key>
                 <true/>
             </dict>
             <key>com.apple.java.JavaPlugin2_NPAPI</key>
             <dict>
                 <key>MinimumPlugInBundleVersion</key>
-                <string>13.9.7</string>
+                <string>14.8.0</string>
                 <key>PlugInUpdateAvailable</key>
                 <true/>
             </dict>
