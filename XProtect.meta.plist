@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Version</key>
+    <integer>114</integer>
+    <key>PlugInBlacklist</key>
+    <dict>
+        <key>10</key>
+        <dict>
+            <key>com.microsoft.SilverlightPlugin</key>
+            <dict>
+                <key>MinimumPlugInBundleVersion</key>
+                <string>5.1.41212.0</string>
+            </dict>
+            <key>com.macromedia.Flash Player.plugin</key>
+            <dict>
+                <key>MinimumPlugInBundleVersion</key>
+                <string>27.0.0.183</string>
+            </dict>
+            <key>com.macromedia.Flash Player ESR.plugin</key>
+            <dict>
+                <key>MinimumPlugInBundleVersion</key>
+                <string>18.0.0.382</string>
+            </dict>
+            <key>com.apple.java.JavaAppletPlugin</key>
+            <dict>
+                <key>MinimumPlugInBundleVersion</key>
+                <string>13.9.7</string>
+                <key>PlugInUpdateAvailable</key>
+                <true/>
+            </dict>
+            <key>com.apple.java.JavaPlugin2_NPAPI</key>
+            <dict>
+                <key>MinimumPlugInBundleVersion</key>
+                <string>13.9.7</string>
+                <key>PlugInUpdateAvailable</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
+    <key>JavaWebComponentVersionMinimum</key>
+    <string>1.6.0_45-b06-451</string>
+</dict>
+</plist>
