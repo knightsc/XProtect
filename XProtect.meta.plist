@@ -5,7 +5,7 @@
 	<key>JavaWebComponentVersionMinimum</key>
 	<string>1.6.0_45-b06-451</string>
 	<key>Version</key>
-	<real>2081</real>
+	<real>2092</real>
 	<key>PlugInBlacklist</key>
 	<dict>
 		<key>10</key>
@@ -20,14 +20,14 @@
 			<key>com.macromedia.Flash Player.plugin</key>
 			<dict>
 				<key>MinimumPlugInBundleVersion</key>
-				<string>22.0.0.192</string>
+				<string>23.0.0.205</string>
 				<key>PlugInUpdateAvailable</key>
 				<true/>
 			</dict>
 			<key>com.macromedia.Flash Player ESR.plugin</key>
 			<dict>
 				<key>MinimumPlugInBundleVersion</key>
-				<string>18.0.0.360</string>
+				<string>18.0.0.382</string>
 				<key>PlugInUpdateAvailable</key>
 				<true/>
 			</dict>
@@ -58,6 +58,24 @@
 	<dict>
 		<key>Extensions</key>
 		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.searchnt.safari</string>
+				<key>Developer Identifier</key>
+				<string>6ERPEMNB65</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.shelfsick.safari</string>
+				<key>Developer Identifier</key>
+				<string>33HGJH7H8P</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.searchnt.safari</string>
+				<key>Developer Identifier</key>
+				<string>LUZSN84HYP</string>
+			</dict>
 			<dict>
 				<key>CFBundleIdentifier</key>
 				<string>com.searchtrust.safariext</string>
