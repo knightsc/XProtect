@@ -22,10 +22,17 @@
 				<key>PlugInUpdateAvailable</key>
 				<true/>
 			</dict>
+			<key>com.macromedia.Flash Player ESR.plugin</key>
+			<dict>
+				<key>MinimumPlugInBundleVersion</key>
+				<string>13.0.0.289</string>
+				<key>PlugInUpdateAvailable</key>
+				<true/>
+			</dict>
 			<key>com.macromedia.Flash Player.plugin</key>
 			<dict>
 				<key>MinimumPlugInBundleVersion</key>
-				<string>12.0.0.44</string>
+				<string>17.0.0.188</string>
 				<key>PlugInUpdateAvailable</key>
 				<true/>
 			</dict>
@@ -39,6 +46,6 @@
 		</dict>
 	</dict>
 	<key>Version</key>
-	<integer>2047</integer>
+	<integer>2061</integer>
 </dict>
 </plist>
