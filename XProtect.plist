@@ -981,6 +981,80 @@
     </dict>
     <dict>
         <key>Description</key>
+        <string>OSX.ExtensionsInstaller.A</string>
+        <key>LaunchServices</key>
+        <dict>
+            <key>LSItemContentType</key>
+            <string>com.apple.application-bundle</string>
+        </dict>
+        <key>Matches</key>
+        <array>
+            <dict>
+                <key>MatchType</key>
+                <string>MatchAll</string>
+                <key>Matches</key>
+                <array>
+                    <dict>
+                        <key>MatchFile</key>
+                        <dict>
+                            <key>NSURLTypeIdentifierKey</key>
+                            <string>public.unix-executable</string>
+                        </dict>
+                        <key>MatchType</key>
+                        <string>Match</string>
+                        <key>Pattern</key>
+                        <string>72656D6F76655861747472546F</string>
+                    </dict>
+                    <dict>
+                        <key>MatchFile</key>
+                        <dict>
+                            <key>NSURLTypeIdentifierKey</key>
+                            <string>public.unix-executable</string>
+                        </dict>
+                        <key>MatchType</key>
+                        <string>Match</string>
+                        <key>Pattern</key>
+                        <string>676574437279707465644461746146726F6D55726C</string>
+                    </dict>
+                    <dict>
+                        <key>MatchFile</key>
+                        <dict>
+                            <key>NSURLTypeIdentifierKey</key>
+                            <string>public.unix-executable</string>
+                        </dict>
+                        <key>MatchType</key>
+                        <string>Match</string>
+                        <key>Pattern</key>
+                        <string>676574426573744F66666572436F6E6669673A61636365707465644F6666657273</string>
+                    </dict>
+                    <dict>
+                        <key>MatchFile</key>
+                        <dict>
+                            <key>NSURLTypeIdentifierKey</key>
+                            <string>public.unix-executable</string>
+                        </dict>
+                        <key>MatchType</key>
+                        <string>Match</string>
+                        <key>Pattern</key>
+                        <string>536166617269457874656E73696F6E496E7374616C6C6572</string>
+                    </dict>
+                    <dict>
+                        <key>MatchFile</key>
+                        <dict>
+                            <key>NSURLTypeIdentifierKey</key>
+                            <string>public.unix-executable</string>
+                        </dict>
+                        <key>MatchType</key>
+                        <string>Match</string>
+                        <key>Pattern</key>
+                        <string>546172436F6D70726573736F72</string>
+                    </dict>
+                </array>
+            </dict>
+        </array>
+    </dict>
+    <dict>
+        <key>Description</key>
         <string>OSX.Genieo.E</string>
         <key>LaunchServices</key>
         <dict>
@@ -1066,7 +1140,7 @@
                 <key>MatchFile</key>
                 <dict>
                     <key>NSURLNameKey</key>
-                    <string>mpx.min.js</string>
+                    <string>mxp.min.js</string>
                 </dict>
                 <key>MatchType</key>
                 <string>Match</string>
@@ -1725,6 +1799,29 @@
         <dict>
             <key>LSItemContentType</key>
             <string>com.apple.installer-meta-package</string>
+        </dict>
+        <key>Matches</key>
+        <array>
+            <dict>
+                <key>Identity</key>
+                <data>XmhWnTJ3Kked+p5qI7LzrnSyAo8=</data>
+                <key>MatchFile</key>
+                <dict>
+                    <key>NSURLNameKey</key>
+                    <string>postflight</string>
+                </dict>
+                <key>MatchType</key>
+                <string>Match</string>
+            </dict>
+        </array>
+    </dict>
+    <dict>
+        <key>Description</key>
+        <string>OSX.iWorm.C</string>
+        <key>LaunchServices</key>
+        <dict>
+            <key>LSItemContentType</key>
+            <string>com.apple.installer-package-archive</string>
         </dict>
         <key>Matches</key>
         <array>
@@ -2604,10 +2701,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>200000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2617,10 +2714,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>200000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2630,10 +2727,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>200000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2643,10 +2740,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>200000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2656,10 +2753,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>200000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2669,10 +2766,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>200000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2682,10 +2779,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>200000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2695,10 +2792,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>200000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2708,41 +2805,15 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>200000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
                         <key>Identity</key>
                         <data>AqNeLvPM31DQdVsntCwh6M6FfQk=</data>
-                    </dict>
-                    <dict>
-                        <key>MatchFile</key>
-                        <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
-                            <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
-                        </dict>
-                        <key>MatchType</key>
-                        <string>Match</string>
-                        <key>Identity</key>
-                        <data>tsiXsh0iinV8iq+2iLfxj+O3ykQ=</data>
-                    </dict>
-                    <dict>
-                        <key>MatchFile</key>
-                        <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
-                            <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
-                        </dict>
-                        <key>MatchType</key>
-                        <string>Match</string>
-                        <key>Identity</key>
-                        <data>i9V8TjQA1AvfHAxPSm4D2kt+E44=</data>
                     </dict>
                 </array>
             </dict>
@@ -2750,7 +2821,7 @@
         <key>LaunchServices</key>
         <dict>
             <key>LSItemContentType</key>
-            <string>{dyn.*|com.apple.installer-package-archive}</string>
+            <string>com.apple.installer-package-archive</string>
         </dict>
     </dict>
     <dict>
@@ -2813,10 +2884,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>200000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2826,10 +2897,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>200000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2839,10 +2910,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>200000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2852,10 +2923,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>200000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2865,10 +2936,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>300000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2878,10 +2949,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>300000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2891,10 +2962,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>300000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2907,7 +2978,7 @@
         <key>LaunchServices</key>
         <dict>
             <key>LSItemContentType</key>
-            <string>{dyn.*|com.apple.installer-package-archive}</string>
+            <string>com.apple.installer-package-archive</string>
         </dict>
     </dict>
     <dict>
@@ -2959,10 +3030,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>300000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2972,10 +3043,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>300000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2985,10 +3056,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>300000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -2998,10 +3069,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>300000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -3011,10 +3082,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>300000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -3024,10 +3095,10 @@
                     <dict>
                         <key>MatchFile</key>
                         <dict>
-                            <key>NSURLNameKey</key>
-                            <string>{.*\.pkg}</string>
                             <key>NSURLTypeIdentifierKey</key>
-                            <string>{dyn.*|com.apple.installer-package-archive}</string>
+                            <string>com.apple.installer-package-archive</string>
+                            <key>NSURLFileSizeKey</key>
+                            <integer>300000</integer>
                         </dict>
                         <key>MatchType</key>
                         <string>Match</string>
@@ -3040,7 +3111,7 @@
         <key>LaunchServices</key>
         <dict>
             <key>LSItemContentType</key>
-            <string>{dyn.*|com.apple.installer-package-archive}</string>
+            <string>com.apple.installer-package-archive</string>
         </dict>
     </dict>
     <dict>
@@ -3112,6 +3183,8 @@
                 <dict>
                     <key>NSURLTypeIdentifierKey</key>
                     <string>public.unix-executable</string>
+                    <key>NSURLFileSizeKey</key>
+                    <integer>50000</integer>
                     <key>NSURLNameKey</key>
                     <string>FileAgent</string>
                 </dict>
@@ -3198,6 +3271,8 @@
                 <dict>
                     <key>NSURLTypeIdentifierKey</key>
                     <string>public.unix-executable</string>
+                    <key>NSURLFileSizeKey</key>
+                    <integer>110000</integer>
                     <key>NSURLNameKey</key>
                     <string>iCnat</string>
                 </dict>
@@ -3403,29 +3478,6 @@
                 <string>Match</string>
                 <key>Identity</key>
                 <data>QUSK/Le4V4ZqX2530+86OTWY+R4=</data>
-            </dict>
-        </array>
-    </dict>
-    <dict>
-        <key>Description</key>
-        <string>OSX.Prxl.2</string>
-        <key>LaunchServices</key>
-        <dict>
-            <key>LSItemContentType</key>
-            <string>com.apple.application-bundle</string>
-        </dict>
-        <key>Matches</key>
-        <array>
-            <dict>
-                <key>MatchFile</key>
-                <dict>
-                    <key>NSURLTypeIdentifierKey</key>
-                    <string>public.unix-executable</string>
-                </dict>
-                <key>MatchType</key>
-                <string>Match</string>
-                <key>Identity</key>
-                <data>n1PvdKsC3MMt8LzqGFjoFgSqtrQ=</data>
             </dict>
         </array>
     </dict>

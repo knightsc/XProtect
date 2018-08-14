@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Version</key>
-    <real>1102</real>
+    <real>2094</real>
     <key>PlugInBlacklist</key>
     <dict>
         <key>10</key>
@@ -54,5 +54,16 @@
     </dict>
     <key>JavaWebComponentVersionMinimum</key>
     <string>1.6.0_45-b06-451</string>
+    <key>GKChecks</key>
+    <dict>
+        <key>CodeSignatureIDs</key>
+        <array>
+            <string>com.apple.a2p</string>
+            <string>com.apple.ibtool</string>
+            <string>com.apple.pythonw</string>
+            <string>com.apple.python</string>
+            <string>com.apple.ictool</string>
+        </array>
+    </dict>
 </dict>
 </plist>
