@@ -9,14 +9,92 @@ private rule Macho
 
 }
 
-rule OSX_HMining_D
+rule XProtect_OSX_28a9883
+{
+    meta:
+        description = "OSX.28a9883"
+
+    strings:
+
+        $a1 = { 3A 6C 61 62 65 6C 3A 70 6C 69 73 74 50 61 74 68 3A }
+		$a2 = { 3A 62 69 6E 3A 70 6C 69 73 74 3A }
+		$a3 = { 21 40 23 24 7E 5E 26 2A 28 29 5B 5D 7B 7D 3A 3B 3C 3E 2C 2E 31 71 32 77 33 65 34 72 35 74 36 79 37 75 38 69 39 6F 30 70 41 5A 53 58 44 43 46 56 47 42 48 4E 4A 4D 4B 4C 51 57 45 52 54 59 55 49 }
+
+    condition:
+        Macho and all of ($a*)
+}
+
+rule XProtect_OSX_Bundlore_D
+{
+    meta:
+        description = "OSX.Bundlore.D"
+
+    strings:
+
+        $a1 = { 20 00 65 00 63 00 68 00 6F 00 20 00 }
+        $a2 = { 20 00 7C 00 20 00 6F 00 70 00 65 00 6E 00 73 00 73 00 6C 00 20 00 65 00 6E 00 63 00 20 00 2D 00 61 00 65 00 73 00 2D 00 32 00 35 00 36 00 2D 00 63 00 66 00 62 00 20 00 2D 00 70 00 61 00 73 00 73 00 20 00 70 00 61 00 73 00 73 00 3A }
+        $a3 = { 00 2D 00 73 00 61 00 6C 00 74 00 20 00 2D 00 41 00 20 00 2D 00 61 00 20 00 2D 00 64 00 20 00 7C 00 20 00 62 00 61 00 73 00 68 00 20 00 2D 00 73 }
+        $b1 = { 46 61 73 64 55 41 53 }
+
+    condition:
+        $b1 at 0 and all of ($a*) and filesize <= 3000
+}
+
+rule XProtect_OSX_Particle_Smasher_A
+{
+    meta:
+        description = "OSX.ParticleSmasher.A"
+    
+    strings:
+        $a1 = { 63 6F 75 6C 64 6E 27 74 20 6F 70 65 6E 20 74 68 65 20 64 62 00 } 
+        $a2 = { 25 40 2F 4F 50 45 52 41  2E 7A 69 70 00 }  
+        $a3 = { 25 40 2F 43 48 52 4F 4D 45 5F 25 40 2E 7A 69 70 00 } 
+        $a4 = { 25 40 2F 53 41 46 41 52 49 2E 7A 69 70 00 } 
+        $a5 = { 25 40 2F 46 49 52 45 46 4F 58 5F 25 40 2E 7A 69 70 00 } 
+        $a6 = { 63 70 20 25 40 2F 70 6C 61 63 65 73 2E 73 71 6C 69 74 65 20 25 40 2F 70 6C 61 63 65 73 2E 73 71 6C 69 74 65 2E 64 75 6D 70 00 } 
+        $a7 = { 63 70 20 25 40 2F 48 69 73 74 6F 72 79 20 25 40 2F 48 69 73 74 6F 72 79 2E 64 75 6D 70 00 }
+        
+    condition:
+      Macho and filesize < 450000 and all of ($a*)
+}
+
+rule XProtect_OSX_HiddenLotus_A
+{
+    meta:
+        description = "OSX.HiddenLotus.A"
+    strings:
+		$a1 = { 00 2F 00 25 6C 64 00 00 00 00 00 00 00 00 00 00 00 }
+		$a2 = { 00 72 62 00 00 20 26 00 00 00 00 00 00 00 }
+		$a3 = { 00 25 64 00 20 32 3E 26 31 00 72 00 0D 0A 00 00 }
+		$a4 = { 00 25 30 32 78 00 00 00 00 00 00 00 }
+		$a5 = { 00 3D 00 3B 00 00 00 }        
+    condition:
+        Macho and all of ($a*) and filesize < 180000
+}
+
+rule XProtect_OSX_Mughthesec_B
+{
+    meta:
+        description = "OSX.Mughthesec.B"
+    strings:
+        $a1 = { 42 75 6E 64 6C 65 4D 65 55 70 }
+        $a2 = { 50 75 62 6C 69 73 68 65 72 4F 66 66 65 72 53 74 61 74 65 }
+        $a3 = { 49 6E 73 74 61 6C 6C 50 72 6F 67 72 65 73 73 53 74 61 74 65 }
+        $a4 = { 41 64 76 65 72 74 69 73 65 72 4F 66 66 65 72 53 74 61 74 65 }
+        $b1 = { 42 65 72 54 61 67 67 65 64 44 61 74 61 }
+        $b2 = { 42 45 52 50 72 69 6E 74 56 69 73 69 74 6F 72 }
+    condition:
+        Macho and filesize < 3000000 and all of them
+}
+
+rule XProtect_OSX_HMining_D
 {
     meta:
         description = "OSX.HMining.D"
     strings:
         $a1 = { 72 ?? 75 ?? 6E ?? 41 ?? 6C ?? 6C ?? 41 ?? 70 ?? 70 }
         $a2 = { 66 ?? 69 ?? 72 ?? 65 ?? 46 ?? 6F ?? 78 ?? 53 ?? 65 ?? 74 ?? 4E ?? 74 ?? 53 ?? 70 }
-        $a3 = { 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 7E ?? 46 }
+        $a3 = { 53 ?? 61 ?? 66 ?? 61 ?? 72 ?? 69 ?? 2E ?? 61 ?? 70 ?? 70 }
         $a4 = { 63 ?? 6F ?? 6D ?? 2E ?? 61 ?? 70 ?? 70 ?? 6C ?? 65 ?? 2E ?? 53 ?? 61 ?? 66 ?? 61 ?? 72 ?? 69 }
         $a5 = { 63 ?? 6F ?? 6D ?? 2E ?? 61 ?? 70 ?? 70 ?? 6C ?? 65 ?? 2E ?? 71 ?? 75 ?? 61 ?? 72 ?? 61 ?? 6E ?? 74 ?? 69 ?? 6E ?? 65 }
     condition:
@@ -56,10 +134,24 @@ rule XProtect_OSX_AceInstaller_B
         all of ($b*)
 }
 
-rule XProtect_AdLoad_B
+rule XProtect_AdLoad_B_2 : dropper
 {
     meta:
-        description = "OSX.AdLoad.B"
+        description = "OSX.AdLoad.B.2"
+
+    strings:
+        $a1 = {48 8B ?? ?? ?? ?? ?? 48 8D 5D B8 48 89 03 C7 43 08 00 00 00 C2 C7 43 0C 00 00 00 00 48 8D ?? ?? ?? ?? ?? 48 89 43 10 48 8D ?? ?? ?? ?? ?? 48 89 43 18 4C 89 F7 ?? ?? ?? ?? ?? ?? 48 89 43 20 4C 89 FF 48 89 DE ?? ?? ?? ?? ?? 4C 89 FF ?? ?? ?? 48 8B 7B 20 ?? ?? ??
+48 83 C4 30}
+        $b1 = {67 65 74 53 61 66 61 72 69 56 65 72 73 69 6F 6E}
+        
+    condition:
+        Macho and filesize < 300000 and $a1 and $b1
+}
+
+rule XProtect_AdLoad_B_1
+{
+    meta:
+        description = "OSX.AdLoad.B.1"
 
     strings:
         $a1 = {73 65 74 49 6E 73 74 61 6C 6C 46 69 6E 69 73 68 65 64 54 65 78 74}
@@ -229,7 +321,7 @@ rule OSX_Findzip_A {
 rule OSX_Proton_A
 {
     meta:
-            description = "OSX.Proton.A"
+            description = "OSX.Proton.A"
            
     strings:
             $a1 = {4E 65 74 77 6F 72 6B 20 43 6F 6E 66 69 67 75 72 61 74 69 6F 6E 20 6E 65 65 64 73 20 74 6F 20 75 70 64 61 74 65 20 44 48 43 50 20 73 65 74 74 69 6E 67 73 2E 20 54 79 70 65 20 79 6F 75 72 20 70 61 73 73 77 6F 72 64 20 74 6F 20 61 6C 6C 6F 77 20 74 68 69 73 2E}
