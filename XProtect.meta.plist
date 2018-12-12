@@ -5,7 +5,7 @@
 	<key>JavaWebComponentVersionMinimum</key>
 	<string>1.6.0_45-b06-451</string>
 	<key>Version</key>
-	<real>2100</real>
+	<real>2101</real>
 	<key>PlugInBlacklist</key>
 	<dict>
 		<key>10</key>
@@ -20,7 +20,7 @@
 			<key>com.macromedia.Flash Player.plugin</key>
 			<dict>
 				<key>MinimumPlugInBundleVersion</key>
-				<string>31.0.0.108</string>
+				<string>32.0.0.101</string>
 				<key>PlugInUpdateAvailable</key>
 				<true/>
 			</dict>
