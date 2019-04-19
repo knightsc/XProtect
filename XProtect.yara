@@ -9,6 +9,31 @@ private rule Macho
 
 }
 
+private rule PE
+{
+    meta:
+        description = "private rule to match PE binaries"
+
+    condition:
+        uint16(0) == 0x5a4d and uint32(uint32(0x3C)) == 0x4550
+}
+
+rule XProtect_MACOS_d1e06b8
+{
+    meta:
+        description = "MACOS.d1e06b8"
+    strings:
+        $a1 =  { 2f 00 2f 00 2a 00 45 00 72 00 72 00 6f 00 72 00 43 00 6f 00 64 00 65 00 2a 00 5c 00 5c 00 }
+        $a2 =  { 28 00 3c 00 5e 00 5e 00 5e 00 5e 00 3e 00 29 00 }
+        $a3 =  { 74 72 61 63 6b 69 6e 67 58 4d 4c }
+        $a4 =  { 41 00 6c 00 6c 00 49 00 6e 00 73 00 74 00 61 00 6c 00 6c 00 65 00 64 00 41 00 70 00 70 00 73 00 }
+        $a5 =  { 6f 66 66 65 72 5f 70 61 72 61 6d 65 74 65 72 }
+        $a6 =  { 6f 00 66 00 66 00 65 00 72 00 5f 00 69 00 64 00 }
+
+    condition:
+        PE and all of ($a*) and filesize < 200KB
+}
+
 rule XProtect_OSX_28a9883
 {
     meta:
@@ -1167,6 +1192,3 @@ rule PrxlA
             hash.sha1(0, filesize) == "f1a32e53439d3adc967a3b47f9071de6c10fce4e"
         )
 }
-
-
-
