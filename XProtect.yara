@@ -18,6 +18,20 @@ private rule PE
         uint16(0) == 0x5a4d and uint32(uint32(0x3C)) == 0x4550
 }
 
+rule XProtect_MACOS_6175e25
+{
+    meta:
+        description = "MACOS.6175e25"
+    strings:
+        $a1 = { 00 25 40 25 40 25 40 25 40 00 25 63 00 }
+        $a2 = { 64 65 6c 65 74 65 41 70 70 42 79 53 65 6c 66 }
+        $a3 = { 65 6e 63 72 79 70 74 44 65 63 72 79 70 74 4f 70 65 72 61 74 69 6f 6e }
+        $a4 = { 45 6e 63 6f 64 65 44 65 63 6f 64 65 4f 70 73 }
+        $a5 = { 63 72 65 61 74 46 69 6c 65 4f 6e 54 65 6d 70 3a 73 63 72 70 4e 61 6d 65 3a }
+    condition:
+        Macho and all of ($a*) and filesize < 200KB
+}
+
 rule XProtect_MACOS_d1e06b8
 {
     meta:
