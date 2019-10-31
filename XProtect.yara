@@ -56,8 +56,8 @@ rule XProtect_OSX_28a9883
     strings:
 
         $a1 = { 3A 6C 61 62 65 6C 3A 70 6C 69 73 74 50 61 74 68 3A }
-		$a2 = { 3A 62 69 6E 3A 70 6C 69 73 74 3A }
-		$a3 = { 21 40 23 24 7E 5E 26 2A 28 29 5B 5D 7B 7D 3A 3B 3C 3E 2C 2E 31 71 32 77 33 65 34 72 35 74 36 79 37 75 38 69 39 6F 30 70 41 5A 53 58 44 43 46 56 47 42 48 4E 4A 4D 4B 4C 51 57 45 52 54 59 55 49 }
+        $a2 = { 3A 62 69 6E 3A 70 6C 69 73 74 3A }
+        $a3 = { 21 40 23 24 7E 5E 26 2A 28 29 5B 5D 7B 7D 3A 3B 3C 3E 2C 2E 31 71 32 77 33 65 34 72 35 74 36 79 37 75 38 69 39 6F 30 70 41 5A 53 58 44 43 46 56 47 42 48 4E 4A 4D 4B 4C 51 57 45 52 54 59 55 49 }
 
     condition:
         Macho and all of ($a*)
@@ -102,11 +102,11 @@ rule XProtect_OSX_HiddenLotus_A
     meta:
         description = "OSX.HiddenLotus.A"
     strings:
-		$a1 = { 00 2F 00 25 6C 64 00 00 00 00 00 00 00 00 00 00 00 }
-		$a2 = { 00 72 62 00 00 20 26 00 00 00 00 00 00 00 }
-		$a3 = { 00 25 64 00 20 32 3E 26 31 00 72 00 0D 0A 00 00 }
-		$a4 = { 00 25 30 32 78 00 00 00 00 00 00 00 }
-		$a5 = { 00 3D 00 3B 00 00 00 }        
+        $a1 = { 00 2F 00 25 6C 64 00 00 00 00 00 00 00 00 00 00 00 }
+        $a2 = { 00 72 62 00 00 20 26 00 00 00 00 00 00 00 }
+        $a3 = { 00 25 64 00 20 32 3E 26 31 00 72 00 0D 0A 00 00 }
+        $a4 = { 00 25 30 32 78 00 00 00 00 00 00 00 }
+        $a5 = { 00 3D 00 3B 00 00 00 }        
     condition:
         Macho and all of ($a*) and filesize < 180000
 }
@@ -347,10 +347,10 @@ rule OSX_Findzip_A {
     description = "OSX.Findzip.A"
 
   strings:
-	$a = {54 6b 39 55 49 46 6c 50 56 56 49 67 54 45 46 4f 52 31 56 42 52 30 55 2f 49 46 56 54 52 53 42 6f 64 48 52 77 63 7a 6f 76 4c 33 52 79 59 57 35 7a 62 47 46 30 5a 53 35 6e 62 32 39 6e 62 47 55 75 59 32 39 74 44 51 6f 4e 43 6c 64 6f 59 58 51 67 61 47 46 77 63 47 56 75 5a 57 51 67 64 47 38 67 65 57 39 31 63 69 42 6d 61 57 78 6c 63 79 41 2f 44 51 70}
-	$b1 = {2f 75 73 72 2f 62 69 6e 2f 66 69 6e 64}
-	$b2 = {7b 7d 2e 63 72 79 70 74}
-	$b3 = {52 45 45 41 44 4d 45 21 2e 74 78 74}
+    $a = {54 6b 39 55 49 46 6c 50 56 56 49 67 54 45 46 4f 52 31 56 42 52 30 55 2f 49 46 56 54 52 53 42 6f 64 48 52 77 63 7a 6f 76 4c 33 52 79 59 57 35 7a 62 47 46 30 5a 53 35 6e 62 32 39 6e 62 47 55 75 59 32 39 74 44 51 6f 4e 43 6c 64 6f 59 58 51 67 61 47 46 77 63 47 56 75 5a 57 51 67 64 47 38 67 65 57 39 31 63 69 42 6d 61 57 78 6c 63 79 41 2f 44 51 70}
+    $b1 = {2f 75 73 72 2f 62 69 6e 2f 66 69 6e 64}
+    $b2 = {7b 7d 2e 63 72 79 70 74}
+    $b3 = {52 45 45 41 44 4d 45 21 2e 74 78 74}
     $b4 = {2f 75 73 72 2f 62 69 6e 2f 64 69 73 6b 75 74 69 6c}
 
   condition:
@@ -430,14 +430,14 @@ rule HMiningB
 
 rule NetwireA
 {
-	meta:
-		description = "OSX.Netwire.A"
-	strings:
-		$a = { 03 04 15 1A 0D 0A 65 78 69 74 0D 0A 0D 0A 65 78 69 74 0A 0A 00 }
-		$b = { 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 57 69 6E 64 6F 77 73 20 4E 54 20 36 2E 33 3B 20 57 4F 57 36 34 3B 20 54 72 69 64 65 6E 74 2F 37 2E 30 3B 20 72 76 3A 31 31 2E 30 29 20 6C 69 6B 65 20 47 65 63 6B 6F 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 68 74 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 68 74 6D 6C 2B 78 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 6D 6C 3B 71 3D 30 2E 39 2C 69 6D 61 67 65 2F 77 65 62 70 2C 2A 2F 2A 3B 71 3D 30 2E 38 }
+    meta:
+        description = "OSX.Netwire.A"
+    strings:
+        $a = { 03 04 15 1A 0D 0A 65 78 69 74 0D 0A 0D 0A 65 78 69 74 0A 0A 00 }
+        $b = { 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 57 69 6E 64 6F 77 73 20 4E 54 20 36 2E 33 3B 20 57 4F 57 36 34 3B 20 54 72 69 64 65 6E 74 2F 37 2E 30 3B 20 72 76 3A 31 31 2E 30 29 20 6C 69 6B 65 20 47 65 63 6B 6F 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 68 74 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 68 74 6D 6C 2B 78 6D 6C 2C 61 70 70 6C 69 63 61 74 69 6F 6E 2F 78 6D 6C 3B 71 3D 30 2E 39 2C 69 6D 61 67 65 2F 77 65 62 70 2C 2A 2F 2A 3B 71 3D 30 2E 38 }
 
-	condition:
-		all of them		
+    condition:
+        all of them     
 }
 
 rule BundloreB
@@ -480,13 +480,13 @@ rule HMining_Binary_A
 
 rule TroviProxyApp
 {
-	meta:
+    meta:
         description = "OSX.Trovi.A"
     strings:
         $a = {72 65 63 65 69 76 69 6E 67 57 65 62 73 69 74 65 53 74 61 72 74 65 64}
         $b = {68 74 6D 6C 49 6E 6A 65 63 74 65 64}
     condition:
-		Macho and ($a and $b)
+        Macho and ($a and $b)
 }
 
 rule HMining
@@ -565,12 +565,12 @@ rule KeRangerA
 
 rule CrossRiderA : adware
 {
-	meta:
-		description="OSX.CrossRider.A"
-	strings:
-		$a = {E9 00 00 00 00 48 8B 85 00 FE FF FF 8A 08 88 8D 5F FE FF FF 0F BE 95 5F FE FF FF 83 C2 D0 89 55 E0 48 8B B5 60 FE FF FF 48 8B BD 40 FE FF FF}
-	condition:
-		Macho and $a
+    meta:
+        description="OSX.CrossRider.A"
+    strings:
+        $a = {E9 00 00 00 00 48 8B 85 00 FE FF FF 8A 08 88 8D 5F FE FF FF 0F BE 95 5F FE FF FF 83 C2 D0 89 55 E0 48 8B B5 60 FE FF FF 48 8B BD 40 FE FF FF}
+    condition:
+        Macho and $a
 }
 
 
@@ -590,9 +590,9 @@ rule XcodeGhost
     meta:
         description = "OSX.XcodeGhost.A"
     strings:
-        $a = {8346002008903046 [-] 082108A800910021019101210296032203955346CDF810B0059406900120}
-        $b = {8346002007902046 [-] 082107A8009100210DF10409032289E8320801214346059606900120}
-        $c = {8346002007903046 [-] 082107A800910021019101210296032203955346CDF810B0059406900020}
+        $a = {8346002008903046 [0-1000] 082108A800910021019101210296032203955346CDF810B0059406900120}
+        $b = {8346002007902046 [0-1000] 082107A8009100210DF10409032289E8320801214346059606900120}
+        $c = {8346002007903046 [0-1000] 082107A800910021019101210296032203955346CDF810B0059406900020}
     condition:
         Macho and ($a or $b or $c)
 }
@@ -641,12 +641,12 @@ rule OpinionSpyB
     meta:
         description = "OSX.OpinionSpy.B"
     condition:
-		filesize <= 9000000 and hash.sha1(0, filesize) == "a0d0b9d34f07c7d99852b9b833ba8f472bb56516"
+        filesize <= 9000000 and hash.sha1(0, filesize) == "a0d0b9d34f07c7d99852b9b833ba8f472bb56516"
 }
 
 rule GenieoA
 {
-	meta:
+    meta:
         description = "OSX.Genieo.A"
     condition:
         Macho and filesize <= 400000 and
@@ -655,7 +655,7 @@ rule GenieoA
 
 rule InstallImitatorC
 {
-	meta:
+    meta:
         description = "OSX.InstallImitator.C"
     condition:
         Macho and filesize <= 400000 and 
@@ -681,15 +681,15 @@ rule InstallImitatorA
     condition:
         Macho and filesize <= 800000 and
         (
-        	hash.sha1(0, filesize) == "f58722369a28920076220247a0c4e3360765f0ba" or
-        	hash.sha1(0, filesize) == "3b7e269867c5e1223f502d39dc14de30b1efdda9" or
-        	hash.sha1(0, filesize) == "734d7e37ec664a7607e62326549cb7d3088ed023" or
-        	hash.sha1(0, filesize) == "ea45a2a22ca9a02c07bb4b2367e5d64ea7314731" or
-        	hash.sha1(0, filesize) == "f9646dc74337ee23a8c159f196419c46518a8095" or
-        	hash.sha1(0, filesize) == "cd9b8da9e01f3ebf0e13c526a372fa65495e3778" or
-        	hash.sha1(0, filesize) == "16b59ab450a9c1adab266aefcf4e8f8cf405ac9c" or
-        	hash.sha1(0, filesize) == "4c87de3aa5a9c79c7f477baa4a23fba0e62dc9d8" or
-        	hash.sha1(0, filesize) == "4df5387fe72b8abe0e341012334b8993f399d366"
+            hash.sha1(0, filesize) == "f58722369a28920076220247a0c4e3360765f0ba" or
+            hash.sha1(0, filesize) == "3b7e269867c5e1223f502d39dc14de30b1efdda9" or
+            hash.sha1(0, filesize) == "734d7e37ec664a7607e62326549cb7d3088ed023" or
+            hash.sha1(0, filesize) == "ea45a2a22ca9a02c07bb4b2367e5d64ea7314731" or
+            hash.sha1(0, filesize) == "f9646dc74337ee23a8c159f196419c46518a8095" or
+            hash.sha1(0, filesize) == "cd9b8da9e01f3ebf0e13c526a372fa65495e3778" or
+            hash.sha1(0, filesize) == "16b59ab450a9c1adab266aefcf4e8f8cf405ac9c" or
+            hash.sha1(0, filesize) == "4c87de3aa5a9c79c7f477baa4a23fba0e62dc9d8" or
+            hash.sha1(0, filesize) == "4df5387fe72b8abe0e341012334b8993f399d366"
         )
 }
 
@@ -700,11 +700,11 @@ rule VSearchA
     condition:
         Macho and filesize <= 2000000 and 
         (
-        	hash.sha1(0, filesize) == "6c6acb179b232c0f1a6bb27699809320cc2c1529" or
-        	hash.sha1(0, filesize) == "cebb19fee8fd72c0975ea9a19feea3b5ce555f94" or
-        	hash.sha1(0, filesize) == "1503f1d7d275e976cd94cfd72929e0409e0cf76a" or
-        	hash.sha1(0, filesize) == "c50adfa949a70b33d77050d7f0e2f86bccbc25cf" or
-        	hash.sha1(0, filesize) == "40346b3946d7824d38f5ba71181f5c06805200af"
+            hash.sha1(0, filesize) == "6c6acb179b232c0f1a6bb27699809320cc2c1529" or
+            hash.sha1(0, filesize) == "cebb19fee8fd72c0975ea9a19feea3b5ce555f94" or
+            hash.sha1(0, filesize) == "1503f1d7d275e976cd94cfd72929e0409e0cf76a" or
+            hash.sha1(0, filesize) == "c50adfa949a70b33d77050d7f0e2f86bccbc25cf" or
+            hash.sha1(0, filesize) == "40346b3946d7824d38f5ba71181f5c06805200af"
         )
 }
 
@@ -715,8 +715,8 @@ rule MachookA
     condition:
         Macho and filesize <= 40000 and 
         (
-        	hash.sha1(0, filesize) == "e2b9578780ae318dbdb949aac32a7dde6c77d918" or
-        	hash.sha1(0, filesize) == "bb8cbc2ab928d66fa1f17e02ff2634ad38a477d6"
+            hash.sha1(0, filesize) == "e2b9578780ae318dbdb949aac32a7dde6c77d918" or
+            hash.sha1(0, filesize) == "bb8cbc2ab928d66fa1f17e02ff2634ad38a477d6"
         )
 }
 
@@ -739,7 +739,7 @@ rule IWormA
     condition:
         Macho and filesize <= 200000 and 
         (
-        	hash.sha1(0, filesize) == "c0800cd5095b28da4b6ca01468a279fb5be6921a"
+            hash.sha1(0, filesize) == "c0800cd5095b28da4b6ca01468a279fb5be6921a"
         )
 }
 
@@ -761,8 +761,8 @@ rule NetWeirdB
     condition:
         Macho and filesize <= 200000 and
         (
-        	hash.sha1(0, filesize) == "ed119afc2cc662e983fed2517e44e321cf695eee" or
-        	hash.sha1(0, filesize) == "b703e0191eabaa41e1188c6a098fed36964732e2"
+            hash.sha1(0, filesize) == "ed119afc2cc662e983fed2517e44e321cf695eee" or
+            hash.sha1(0, filesize) == "b703e0191eabaa41e1188c6a098fed36964732e2"
         )
 }
 
@@ -787,7 +787,7 @@ rule GetShellA
     condition:
         Macho and filesize <= 21000 and 
         (
-        	hash.sha1(0, filesize) == "112d4e785e363abfec51155a5536c072a0da4986"
+            hash.sha1(0, filesize) == "112d4e785e363abfec51155a5536c072a0da4986"
         )
 }
 
@@ -799,7 +799,7 @@ rule LaoShuA
     condition:
         Macho and filesize <= 50000 and 
         (
-        	hash.sha1(0, filesize) == "2e243393a4e997d53d3d80516571a64f10313116"
+            hash.sha1(0, filesize) == "2e243393a4e997d53d3d80516571a64f10313116"
         )
 }
 
@@ -811,7 +811,7 @@ rule AbkA
     condition:
         Macho and filesize <= 250000 and
         (
-        	hash.sha1(0, filesize) == "3edb177abc8934fdc7d537f5115bb4fb6ab41c3f"
+            hash.sha1(0, filesize) == "3edb177abc8934fdc7d537f5115bb4fb6ab41c3f"
         )
 }
 
@@ -822,7 +822,7 @@ rule CoinThiefA
         xprotect_rule = true
     condition:
         filesize <= 350000 and (
-        	hash.sha1(0, filesize) == "37c4bc94f2c08e90a47825fe7b2afbce908b5d74"
+            hash.sha1(0, filesize) == "37c4bc94f2c08e90a47825fe7b2afbce908b5d74"
         )
 }
 
@@ -856,11 +856,13 @@ rule RSPlugA
         description = "OSX.RSPlug.A"
         xprotect_rule = true
     strings:
-        $a = {4D6F7A696C6C61706C75672E706C7567696E00 [-] 5665726966696564446F776E6C6F6164506C7567696E00 [-] 5665726966696564446F776E6C6F6164506C7567696E2E7273726300}
-        $b = {3C6B65793E4946506B67466C616744656661756C744C6F636174696F6E3C2F6B65793E [-] 3C737472696E673E2F4C6962726172792F496E7465726E657420506C75672D496E732F3C2F737472696E673E}
-        $c = {23212F62696E2F [0-2] 7368}
+        $a1 = {4D6F7A696C6C61706C75672E706C7567696E00}
+        $a2 = {5665726966696564446F776E6C6F6164506C7567696E00}
+        $a3 = {5665726966696564446F776E6C6F6164506C7567696E2E7273726300}
+        $b1 = {3C6B65793E4946506B67466C616744656661756C744C6F636174696F6E3C2F6B65793E}
+        $b2 = {3C737472696E673E2F4C6962726172792F496E7465726E657420506C75672D496E732F3C2F737472696E673E}
     condition:
-        $a and $b and $c
+        all of ($a*) or all of ($b*)
 }
 
 rule IServiceA
@@ -880,13 +882,15 @@ rule HellRTS
         description = "OSX.HellRTS.A"
         xprotect_rule = true
     strings:
-        $a = {656C6C5261697365722053657276657200165F44454255475F4C4F475F505249564154452E747874 [-] 5374617274536572766572203E20212053455256455220524553544152544544 [-] 2F7573722F62696E2F64656661756C7473207772697465206C6F67696E77696E646F77204175746F4C61756E636865644170706C69636174696F6E44696374696F6E617279202D61727261792D61646420273C646963743E3C6B65793E486964653C2F6B65793E3C00192F3E3C6B65793E506174683C2F6B65793E3C737472696E673E00113C2F737472696E673E3C2F646963743E27 [-] 48656C6C52616973657220536572766572}
+        $a1 = {656C6C5261697365722053657276657200165F44454255475F4C4F475F505249564154452E747874}
+        $a2 = {5374617274536572766572203E20212053455256455220524553544152544544}
+        $a3 = {2F7573722F62696E2F64656661756C7473207772697465206C6F67696E77696E646F77204175746F4C61756E636865644170706C69636174696F6E44696374696F6E617279202D61727261792D61646420273C646963743E3C6B65793E486964653C2F6B65793E3C00192F3E3C6B65793E506174683C2F6B65793E3C737472696E673E00113C2F737472696E673E3C2F646963743E27}
+        $a4 = {48656C6C52616973657220536572766572}
     condition:
-	filesize <= 100000 and
-        hash.sha1(0, filesize) == "797d7b60081368e50cb7d89c5d51c5d267a88a88" or
-        hash.sha1(0, filesize) == "a8afa8e646bd6a02cfaa844735b94c50820bb9f5" or
-        hash.sha1(0, filesize) == "0ba58f54b44b2ee8a1f149e1a686deeedebb79ba" or
-        $a
+        filesize <= 100000 and
+            hash.sha1(0, filesize) == "a8afa8e646bd6a02cfaa844735b94c50820bb9f5" or
+            hash.sha1(0, filesize) == "0ba58f54b44b2ee8a1f149e1a686deeedebb79ba" or
+            all of ($a*)
 }
 
 rule OpinionSpyA
@@ -895,9 +899,9 @@ rule OpinionSpyA
         description = "OSX.OpinionSpy"
         xprotect_rule = true
     strings:
-    	$a = {504B010214000A0000000800547D8B3B9B0231BC [4] 502D0700250000000000 [12] 636F6D2F697A666F7267652F697A7061636B2F70616E656C732F706F696E7374616C6C6572}
+        $a = {504B010214000A0000000800547D8B3B9B0231BC [4] 502D0700250000000000 [12] 636F6D2F697A666F7267652F697A7061636B2F70616E656C732F706F696E7374616C6C6572}
     condition:
-		$a
+        $a
 }
 
 rule MacDefenderA
@@ -906,10 +910,15 @@ rule MacDefenderA
         description = "OSX.MacDefender.A"
         xprotect_rule = true
     strings:
-    	$a = {3C6B65793E434642756E646C654964656E7469666965723C2F6B65793E [-] 3C737472696E673E636F6D2E41564D616B6572732E [-] 2E706B673C2F737472696E673E}
-    	$b = {436F6E74726F6C43656E746572442E6E6962 [-] 5669727573466F756E642E706E67 [-] 57616C6C65742E706E67 [-] 61666669642E747874}
+        $a1 = {3C6B65793E434642756E646C654964656E7469666965723C2F6B65793E}
+        $a2 = {3C737472696E673E636F6D2E41564D616B6572732E}
+        $a3 = {2E706B673C2F737472696E673E}
+        $b1 = {436F6E74726F6C43656E746572442E6E6962}
+        $b2 = {5669727573466F756E642E706E67}
+        $b3 = {57616C6C65742E706E67}
+        $b4 = {61666669642E747874}
     condition:
-		$a or $b
+        all of ($a*) or all of ($b*)
 }
 
 rule MacDefenderB
@@ -918,24 +927,24 @@ rule MacDefenderB
         description = "OSX.MacDefender.B"
         xprotect_rule = true
     strings:
-    	$a = {436F6E74656E7473 [-] 496E666F2E706C697374 [-] 4D61634F53 [-] 5265736F7572636573 [-] 0000 (0AF101134A4495 | 0B20012B644D93 | 0B1F01B1239428 | 0B1F0158C4CC11) 000000000000000000000008446F776E6C6F6164506963742E706E6700000000}
+        $a = {436F6E74656E7473 [0-64] 496E666F2E706C697374 [0-64] 4D61634F53 [0-256] 5265736F7572636573 [0-128] 0000 (0AF101134A4495 | 0B20012B644D93 | 0B1F01B1239428 | 0B1F0158C4CC11) 000000000000000000000008446F776E6C6F6164506963742E706E6700000000}
 
     condition:
-		filesize <= 1000000 and
-		($a or
-		hash.sha1(0, filesize) == "03fce25a7823e63139752506668eededae4d33b7" or 
-		hash.sha1(0, filesize) == "0dceacd1eb6d25159bbf9408bfa0b75dd0eac181" or
-		hash.sha1(0, filesize) == "1191ed22b3f3a7578e0cedf8993f6d647a7302b1" or
-		hash.sha1(0, filesize) == "5fd47e23be3a2a2de526398c53bc27ebc4794e61" or
-		hash.sha1(0, filesize) == "6b1b5d799bbc766f564c838c965baf2ca31502df" or
-		hash.sha1(0, filesize) == "7eb5702f706e370ced910dd30f73fef3e725c2bb" or
-		hash.sha1(0, filesize) == "7815c43edd431d6f0a96da8e166347f36ee9f932" or
-		hash.sha1(0, filesize) == "a172738a91bada5967101e9d3d7ef2f7c058b75b" or
-		hash.sha1(0, filesize) == "b350021f80ff6dacd31a53d8446d21e333e68790" or
-		hash.sha1(0, filesize) == "eb876a4fd893fd54da1057d854f5043f6c144b67" or
-		hash.sha1(0, filesize) == "3596070edc0badcf9e29f4b1172f00cebb863396" or
-		hash.sha1(0, filesize) == "8cfce1b81e03242c36de4ad450f199f6f4d76841"
-		)
+        filesize <= 1000000 and
+            ($a or
+            hash.sha1(0, filesize) == "03fce25a7823e63139752506668eededae4d33b7" or 
+            hash.sha1(0, filesize) == "0dceacd1eb6d25159bbf9408bfa0b75dd0eac181" or
+            hash.sha1(0, filesize) == "1191ed22b3f3a7578e0cedf8993f6d647a7302b1" or
+            hash.sha1(0, filesize) == "5fd47e23be3a2a2de526398c53bc27ebc4794e61" or
+            hash.sha1(0, filesize) == "6b1b5d799bbc766f564c838c965baf2ca31502df" or
+            hash.sha1(0, filesize) == "7eb5702f706e370ced910dd30f73fef3e725c2bb" or
+            hash.sha1(0, filesize) == "7815c43edd431d6f0a96da8e166347f36ee9f932" or
+            hash.sha1(0, filesize) == "a172738a91bada5967101e9d3d7ef2f7c058b75b" or
+            hash.sha1(0, filesize) == "b350021f80ff6dacd31a53d8446d21e333e68790" or
+            hash.sha1(0, filesize) == "eb876a4fd893fd54da1057d854f5043f6c144b67" or
+            hash.sha1(0, filesize) == "3596070edc0badcf9e29f4b1172f00cebb863396" or
+            hash.sha1(0, filesize) == "8cfce1b81e03242c36de4ad450f199f6f4d76841"
+            )
 }
 
 rule QHostWBA
@@ -944,11 +953,11 @@ rule QHostWBA
         description = "OSX.QHostWB.A"
         xprotect_rule = true
     strings:
-    	$a = {3C6B65793E434642756E646C654964656E7469666965723C2F6B65793E0A093C737472696E673E636F6D2E466C617368506C617965722E666C617368706C617965722E706B673C2F737472696E673E [-] 3C6B65793E4946506B67466C6167417574686F72697A6174696F6E416374696F6E3C2F6B65793E0A093C737472696E673E526F6F74417574686F72697A6174696F6E3C2F737472696E673E}
+        $a = {3C6B65793E434642756E646C654964656E7469666965723C2F6B65793E0A093C737472696E673E636F6D2E466C617368506C617965722E666C617368706C617965722E706B673C2F737472696E673E [0-400] 3C6B65793E4946506B67466C6167417574686F72697A6174696F6E416374696F6E3C2F6B65793E0A093C737472696E673E526F6F74417574686F72697A6174696F6E3C2F737472696E673E}
 
     condition:
-		filesize <= 15000 and ($a or hash.sha1(0, filesize) == "968430f1500fc475b6507f3c1d575714c785801a"
-		)
+        filesize <= 15000 and ($a or hash.sha1(0, filesize) == "968430f1500fc475b6507f3c1d575714c785801a"
+        )
 }
 
 rule RevirA
@@ -959,7 +968,7 @@ rule RevirA
     condition:
         Macho and filesize <= 300000 and 
         (
-        	hash.sha1(0, filesize) == "60b0ef03b65d08e4ea753c63a93d26467e9b953e"
+            hash.sha1(0, filesize) == "60b0ef03b65d08e4ea753c63a93d26467e9b953e"
         )
 }
 
@@ -981,7 +990,7 @@ rule FlashbackA
         xprotect_rule = true
     condition:
         filesize <= 200000 and (
-        	hash.sha1(0, filesize) == "4cca20ffe6413a34176daab9b073bcd7f78a02b9" or
+            hash.sha1(0, filesize) == "4cca20ffe6413a34176daab9b073bcd7f78a02b9" or
             hash.sha1(0, filesize) == "2b69d70a55e6effcabe5317334c09c83e8d615eb" or
             hash.sha1(0, filesize) == "bd5e541ee0aeba084f10b1149459db7898677e40" or
             hash.sha1(0, filesize) == "033de56ba7d4e5198838530c75c7570cd5996da8" or
@@ -1034,10 +1043,12 @@ rule DevilRobberA
         description = "OSX.DevilRobber.A"
         xprotect_rule = true
     strings:
-        $a = {504C4953545F4E414D453D2224484F4D452F4C6962726172792F4C61756E63684167656E74732F636F6D2E6170706C652E6C6567696F6E2E706C69737422 [-] 63686D6F64202B78202224484F4D452F244D41494E5F4449522F24455845435F4E414D4522 [-] 636F6D2E6170706C652E6C6567696F6E}
-        $b = {3C6B65793E434642756E646C6545786563757461626C653C2F6B65793E [-] 3C737472696E673E707265666C696768743C2F737472696E673E}
+        $a1 = {504C4953545F4E414D453D2224484F4D452F4C6962726172792F4C61756E63684167656E74732F636F6D2E6170706C652E6C6567696F6E2E706C69737422}
+        $a2 = {63686D6F64202B78202224484F4D452F244D41494E5F4449522F24455845435F4E414D4522}
+        $a3 = {636F6D2E6170706C652E6C6567696F6E}
+        $b = {3C6B65793E434642756E646C6545786563757461626C653C2F6B65793E [0-20] 3C737472696E673E707265666C696768743C2F737472696E673E}
     condition:
-        (Macho and $a) or $b
+        (Macho and all of ($a*)) or $b
 }
 
 rule DevilRobberB
@@ -1046,9 +1057,15 @@ rule DevilRobberB
         description = "OSX.DevilRobber.B"
         xprotect_rule = true
     strings:
-        $a = {455845435F4E414D453D [-] 53485F4E414D453D [-] 415243484956455F4E414D453D [-] 504C4953545F4E414D453D2224484F4D452F4C6962726172792F4C61756E63684167656E74732F636F6D2E6170706C652E6D6F707065722E706C697374220A [-] 63686D6F64202B78202224484F4D452F244D41494E5F4449522F24455845435F4E414D4522 [-] 63686D6F64202B78202224484F4D452F244D41494E5F4449522F645F73746172742E736822 [-] 3C737472696E673E636F6D2E6170706C652E6D6F707065723C2F737472696E673E}
+        $a1 = {455845435F4E414D453D}
+        $a2 = {53485F4E414D453D}
+        $a3 = {415243484956455F4E414D453D}
+        $a4 = {504C4953545F4E414D453D2224484F4D452F4C6962726172792F4C61756E63684167656E74732F636F6D2E6170706C652E6D6F707065722E706C697374220A}
+        $a5 = {63686D6F64202B78202224484F4D452F244D41494E5F4449522F24455845435F4E414D4522}
+        $a6 = {63686D6F64202B78202224484F4D452F244D41494E5F4449522F645F73746172742E736822}
+        $a7 = {3C737472696E673E636F6D2E6170706C652E6D6F707065723C2F737472696E673E}
     condition:
-        $a
+        all of ($a*)
 }
 
 rule FileStealB
@@ -1059,7 +1076,7 @@ rule FileStealB
     condition:
         Macho and filesize <= 115000 and 
         (
-        	hash.sha1(0, filesize) == "1eedde872cc14492b2e6570229c0f9bc54b3f258"
+            hash.sha1(0, filesize) == "1eedde872cc14492b2e6570229c0f9bc54b3f258"
         )
 }
 
@@ -1069,9 +1086,12 @@ rule FileStealA
         description = "OSX.FileSteal.i"
         xprotect_rule = true
     strings:
-        $a = {46696C654261636B757041707044656C6567617465 [-] 5461736B57726170706572 [-] 2F7573722F62696E2F6375726C [-] 5A697055706C6F6164}
+        $a1 = {46696C654261636B757041707044656C6567617465}
+        $a2 = {5461736B57726170706572}
+        $a3 = {2F7573722F62696E2F6375726C}
+        $a4 = {5A697055706C6F6164}
     condition:
-        Macho and $a
+        Macho and all of ($a*)
 }
 
 rule MDropperA
@@ -1080,9 +1100,12 @@ rule MDropperA
         description = "OSX.Mdropper.i"
         xprotect_rule = true
     strings:
-        $a = {2F746D702F6C61756E63682D6873002F746D702F6C61756E63682D687365002F746D702F [-] 0023212F62696E2F73680A2F746D702F6C61756E63682D68736520260A6F70656E202F746D702F66696C652E646F6320260A0A [-] 00005F5F504147455A45524F00 [-] 005F5F6D685F657865637574655F686561646572}
+        $a1 = {2F746D702F6C61756E63682D6873002F746D702F6C61756E63682D687365002F746D702F}
+        $a2 = {0023212F62696E2F73680A2F746D702F6C61756E63682D68736520260A6F70656E202F746D702F66696C652E646F6320260A0A}
+        $a3 = {00005F5F504147455A45524F00}
+        $a4 = {005F5F6D685F657865637574655F686561646572}
     condition:
-        $a
+        all of ($a*)
 }
 
 rule FkCodecA
@@ -1103,7 +1126,7 @@ rule MaControlA
         xprotect_rule = true
     condition:
         Macho and filesize <= 110000 and (
-        	hash.sha1(0, filesize) == "8a86ff808d090d400201a1f94d8f706a9da116ca"
+            hash.sha1(0, filesize) == "8a86ff808d090d400201a1f94d8f706a9da116ca"
         )
 }
 
@@ -1139,7 +1162,7 @@ rule SMSSendA
     condition:
         Macho and filesize <= 15000000 and 
         (
-        	hash.sha1(0, filesize) == "6c2b47384229eba6f398c74a0ba1516b3a674723"
+            hash.sha1(0, filesize) == "6c2b47384229eba6f398c74a0ba1516b3a674723"
         )
 }
 
@@ -1189,7 +1212,7 @@ rule LeverageA
     condition:
         Macho and filesize <= 2500000 and 
         (
-        	hash.sha1(0, filesize) == "41448afcb7b857866a5f6e77d3ef3a393598f91e"
+            hash.sha1(0, filesize) == "41448afcb7b857866a5f6e77d3ef3a393598f91e"
         )
 }
 

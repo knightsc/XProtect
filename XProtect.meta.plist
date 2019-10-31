@@ -5,7 +5,7 @@
 	<key>JavaWebComponentVersionMinimum</key>
 	<string>1.6.0_45-b06-451</string>
 	<key>Version</key>
-	<real>2103</real>
+	<real>2107</real>
 	<key>PlugInBlacklist</key>
 	<dict>
 		<key>10</key>
@@ -225,6 +225,612 @@
 				<string>com.portsayd.safari</string>
 				<key>Developer Identifier</key>
 				<string>YZG972RG8Z</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.windowname7495607</string>
+				<key>Developer Identifier</key>
+				<string>2TK2NYHFW2</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.datadefault0497561</string>
+				<key>Developer Identifier</key>
+				<string>4VC3S7G2MG</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.windowdaily1742</string>
+				<key>Developer Identifier</key>
+				<string>5GZG8W97DD</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.filtertrend6253539</string>
+				<key>Developer Identifier</key>
+				<string>5YCD52F383</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.handlertech9633</string>
+				<key>Developer Identifier</key>
+				<string>6PN9YY23FZ</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.trackfinds4635</string>
+				<key>Developer Identifier</key>
+				<string>7UR28NU76S</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.tagresults7147631</string>
+				<key>Developer Identifier</key>
+				<string>7V3V2QB2C3</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.thoughttheme2187499</string>
+				<key>Developer Identifier</key>
+				<string>7WY3583N76</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.onedefault7706</string>
+				<key>Developer Identifier</key>
+				<string>8HSFYP6P99</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.easydata2896</string>
+				<key>Developer Identifier</key>
+				<string>7KA5USJ2D4</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.fileapp9835508</string>
+				<key>Developer Identifier</key>
+				<string>8Q2XXA9S9V</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.knowtech5756510</string>
+				<key>Developer Identifier</key>
+				<string>8VK2WEPW22</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.contenttitle8659536</string>
+				<key>Developer Identifier</key>
+				<string>9J88364MHA</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.handlerinfo3688</string>
+				<key>Developer Identifier</key>
+				<string>9NZQKUFRD6</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.synclists4891538</string>
+				<key>Developer Identifier</key>
+				<string>48B2VJHB5S</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.simplylookup0441639</string>
+				<key>Developer Identifier</key>
+				<string>75NNTKA935</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.engineselect5690</string>
+				<key>Developer Identifier</key>
+				<string>78T69HC3SS</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.locatorhelp1634</string>
+				<key>Developer Identifier</key>
+				<string>78UCVB8N63</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.standardhelp4963</string>
+				<key>Developer Identifier</key>
+				<string>72727726CR</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.pointsearch3103511</string>
+				<key>Developer Identifier</key>
+				<string>ACSNQ95JSZ</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.exceedservice6880472</string>
+				<key>Developer Identifier</key>
+				<string>AQ3XPH2T9P</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.enginesuccess7744</string>
+				<key>Developer Identifier</key>
+				<string>B5PV9ADXTC</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.seekmade5500473</string>
+				<key>Developer Identifier</key>
+				<string>B6LLP79VBR</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.handlerdirect8871630</string>
+				<key>Developer Identifier</key>
+				<string>BA86Z75MJ8</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skillresults9918498</string>
+				<key>Developer Identifier</key>
+				<string>CGG6HG6Y5W</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.seekreach6827535</string>
+				<key>Developer Identifier</key>
+				<string>CQU8PJK8D5</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.upgradeshare1691</string>
+				<key>Developer Identifier</key>
+				<string>D57Y935FT5</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.shareprotocol3611501</string>
+				<key>Developer Identifier</key>
+				<string>DB6GMRL6AQ</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.filterrun6637</string>
+				<key>Developer Identifier</key>
+				<string>DK5C9Y86C8</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.balancedservice1704</string>
+				<key>Developer Identifier</key>
+				<string>FBQ9F48KUY</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.windowlink3633512</string>
+				<key>Developer Identifier</key>
+				<string>GZ75U9URBS</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.processevent8689</string>
+				<key>Developer Identifier</key>
+				<string>GZPPM88H38</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.helpertips0346632</string>
+				<key>Developer Identifier</key>
+				<string>HC9RZ4333T</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.managerclick7214644</string>
+				<key>Developer Identifier</key>
+				<string>HSCHB2CX28</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.cloudware8897</string>
+				<key>Developer Identifier</key>
+				<string>J3QK73H4SJ</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.reachsave8704500</string>
+				<key>Developer Identifier</key>
+				<string>J4HGD677DR</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.safeexplore9754</string>
+				<key>Developer Identifier</key>
+				<string>KTJB9CZ244</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.browserplan9707</string>
+				<key>Developer Identifier</key>
+				<string>NNB7DTD2F6</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.enginereader4636</string>
+				<key>Developer Identifier</key>
+				<string>NQKWW269GU</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.assistvalue4599605</string>
+				<key>Developer Identifier</key>
+				<string>Q6XAB4776L</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.unionbytes8963509</string>
+				<key>Developer Identifier</key>
+				<string>Q7K2MQF327</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.guidebrowser0343474</string>
+				<key>Developer Identifier</key>
+				<string>QC8B2PF82S</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.manageopen3638</string>
+				<key>Developer Identifier</key>
+				<string>QMHUNRL38C</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.windowlocal6367645</string>
+				<key>Developer Identifier</key>
+				<string>SKGAYNCV8W</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.coverlaunch2755</string>
+				<key>Developer Identifier</key>
+				<string>U7JUX52D6M</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.filteraccess0873564</string>
+				<key>Developer Identifier</key>
+				<string>UUZDL4R873</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.basicselect0390475</string>
+				<key>Developer Identifier</key>
+				<string>V6DGLWVP73</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.evolvedservice1207604</string>
+				<key>Developer Identifier</key>
+				<string>V6RL78YKPZ</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.applicationlinks5743</string>
+				<key>Developer Identifier</key>
+				<string>V34DXC899K</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.browsermatch9664563</string>
+				<key>Developer Identifier</key>
+				<string>VTQW79WRZ4</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.functionsearch8294606</string>
+				<key>Developer Identifier</key>
+				<string>WPZBQ49APZ</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.organicskill3895</string>
+				<key>Developer Identifier</key>
+				<string>XB564VRCJG</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.resultapps6811562</string>
+				<key>Developer Identifier</key>
+				<string>Y642383952</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.valuebrowser0083537</string>
+				<key>Developer Identifier</key>
+				<string>YJ5HK42H32</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.simpletrusted1033646</string>
+				<key>Developer Identifier</key>
+				<string>ZRT7J747FF</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.explorersystem7586338</string>
+				<key>Developer Identifier</key>
+				<string>2CCFY497H9</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.efficientview9482371</string>
+				<key>Developer Identifier</key>
+				<string>4GMR5YW3EG</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.trustshared4081407</string>
+				<key>Developer Identifier</key>
+				<string>5LWMEF3EX3</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.profileopen6719369</string>
+				<key>Developer Identifier</key>
+				<string>7CAMK6C7D4</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.resultsmanager2654139</string>
+				<key>Developer Identifier</key>
+				<string>7NT2D6D6AY</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.edgetask8331344</string>
+				<key>Developer Identifier</key>
+				<string>8CHL2NLV6W</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.windowfeed7678370</string>
+				<key>Developer Identifier</key>
+				<string>8Z86UU849G</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.discoveryset8643373</string>
+				<key>Developer Identifier</key>
+				<string>9CH9S89D6A</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.anysearchair</string>
+				<key>Developer Identifier</key>
+				<string>27AWM25972</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.filtersearch2630795</string>
+				<key>Developer Identifier</key>
+				<string>57KH8CDK8E</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.helppath9376372</string>
+				<key>Developer Identifier</key>
+				<string>67N67V4S5L</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.boostprocess3018490</string>
+				<key>Developer Identifier</key>
+				<string>73GY86J3XN</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.upgradenext3022972</string>
+				<key>Developer Identifier</key>
+				<string>97T6J28JX7</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.preferredbit7437341</string>
+				<key>Developer Identifier</key>
+				<string>335CCFFHGG</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.helperflow9461432</string>
+				<key>Developer Identifier</key>
+				<string>467GD3CNGV</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.directtrusted8286392</string>
+				<key>Developer Identifier</key>
+				<string>729K4PZ278</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.searches2319190</string>
+				<key>Developer Identifier</key>
+				<string>953FHSA8YQ</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.browserbrand7683345</string>
+				<key>Developer Identifier</key>
+				<string>979HTLNR8P</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.browserfind3164429</string>
+				<key>Developer Identifier</key>
+				<string>7698FPNAVX</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.resultsload3250409</string>
+				<key>Developer Identifier</key>
+				<string>9742G752ZQ</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.assistservice2646035</string>
+				<key>Developer Identifier</key>
+				<string>AZJU4TU638</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.easybrowser1433393</string>
+				<key>Developer Identifier</key>
+				<string>D8WSRY44EV</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.systemdeluxe0453346</string>
+				<key>Developer Identifier</key>
+				<string>D87YRU3345</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.searchpremiere7348430</string>
+				<key>Developer Identifier</key>
+				<string>F44RMMUWAF</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.beginservice0556433</string>
+				<key>Developer Identifier</key>
+				<string>G5Q8WHCUDT</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.superanysearch</string>
+				<key>Developer Identifier</key>
+				<string>GQ65ME5KV3</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.processopen7782408</string>
+				<key>Developer Identifier</key>
+				<string>JSF6784ET9</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.evosearch2661482</string>
+				<key>Developer Identifier</key>
+				<string>KMTA95HB3X</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.doanysearch</string>
+				<key>Developer Identifier</key>
+				<string>L6MFJ58VBK</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.maintainsearch8511434</string>
+				<key>Developer Identifier</key>
+				<string>L9AH6Z2T5M</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.systemstarter9792395</string>
+				<key>Developer Identifier</key>
+				<string>LDRAKL3KVT</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.openservice3002925</string>
+				<key>Developer Identifier</key>
+				<string>MD68SLGQUH</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.easysystem3176849</string>
+				<key>Developer Identifier</key>
+				<string>MY3XR8R34G</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.ultraanysearch</string>
+				<key>Developer Identifier</key>
+				<string>NN36S65A3S</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.competesearch2175428</string>
+				<key>Developer Identifier</key>
+				<string>NZNSHY6977</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.internetphase6142340</string>
+				<key>Developer Identifier</key>
+				<string>QR2KV8D3F7</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.processset3184335</string>
+				<key>Developer Identifier</key>
+				<string>RZTEMB3KFV</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.findanysearch</string>
+				<key>Developer Identifier</key>
+				<string>S8VT5MP5WA</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.sitedefault9015406</string>
+				<key>Developer Identifier</key>
+				<string>SS4Z22JEX9</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.shiftlaunch8652374</string>
+				<key>Developer Identifier</key>
+				<string>U7T2BT6YKF</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.resultsset6975343</string>
+				<key>Developer Identifier</key>
+				<string>UQ5TUCT7AL</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.assistset8869431</string>
+				<key>Developer Identifier</key>
+				<string>V6SJ4GZ22Y</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.browsefeed6952339</string>
+				<key>Developer Identifier</key>
+				<string>X45WF73754</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.viewanysearch</string>
+				<key>Developer Identifier</key>
+				<string>XJM7QA6W74</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.syncstatus3208331</string>
+				<key>Developer Identifier</key>
+				<string>XPKDP45G7G</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.plusppgrade0209394</string>
+				<key>Developer Identifier</key>
+				<string>YYKQ6NZ4NZ</string>
 			</dict>
 		</array>
 	</dict>
