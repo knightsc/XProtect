@@ -18,6 +18,43 @@ private rule PE
         uint16(0) == 0x5a4d and uint32(uint32(0x3C)) == 0x4550
 }
 
+rule XProtect_MACOS_de444f2
+{
+  meta:
+    description = "MACOS.de444f2"
+  strings:
+    $a1 = { (48 | 49) 63 ?? 41 32 ?? ?? (88 8D ?? ?? ?? ?? 48 | 48) ?? ?? 74 ?? 88 ?? 48 ?? ?? ?? eb ?? }
+    $a2 = { 41 64 6d 69 6e 20 53 75 63 63 65 73 73 3a 20 25 40 }
+    $a3 = { 45 72 72 6f 72 3a 20 25 40 }
+  condition:
+    Macho and filesize < 250KB and all of them
+}
+
+rule XProtect_MACOS_b70290c
+{
+  meta:
+    description = "MACOS.b70290c"
+  strings:
+    $a1 = { (48 | 49) 63 ?? 41 32 ?? ?? (88 8D ?? ?? ?? ?? 48 | 48) ?? ?? 74 ?? 88 ?? 48 ?? ?? ?? eb ?? }
+    $a2 = { 57 65 62 56 69 65 77 }
+    $a3 = { 4a 53 45 78 70 6f 72 74 }
+  condition:
+    Macho and filesize < 800KB and $a1 and ($a2 or $a3)
+}
+
+rule XProtect_MACOS_22d71e9
+{
+  meta:
+    description = "MACOS.22d71e9"
+  strings:
+    $a1 = { (48 | 49) 63 ?? 41 32 ?? ?? (88 8D ?? ?? ?? ?? 48 | 48) ?? ?? 74 ?? 88 ?? 48 ?? ?? ?? eb ?? }
+    $a2 = { 57 65 62 56 69 65 77 }
+    $a3 = { 4a 53 45 78 70 6f 72 74 }
+    $a4 = { 25 34 64 2d 25 32 64 2d 25 32 64 54 25 32 64 3a 25 32 64 3a 25 32 64 5a }
+  condition:
+    Macho and filesize < 500KB and $a1 and #a2 == 0 and #a3 == 0 and $a4
+}
+
 rule XProtect_MACOS_6175e25
 {
     meta:
