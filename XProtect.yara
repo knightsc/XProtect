@@ -155,12 +155,12 @@ rule XProtect_MACOS_e79dc35
     strings:
         $a = { 73 65 61 72 63 68 [2-12] 2e 61 6b 61 6d 61 69 68 64 2e 6e 65 74 2f }
         $b = { 49 be 79 73 00 00 00 00 00 ea 49 ?? ?? ?? ?? ?? ?? ?? ?? ?? 49 ?? ?? ?? ?? 48 ?? ?? ?? ?? ?? ?? 48 89 d8 e8 ?? ?? ?? ?? be 02 00 00 00 4c 89 e7 e8 ?? ?? ?? ?? 4c 89 ff e8 ?? ?? ?? ?? 49 81 c6 f5 00 00 00 48 89 df 4c 89 ee 4c 89 f2 e8 ?? ?? ?? ?? 49 89 dd e8 ?? ?? ?? ?? 49 89 c7 41 ?? ?? ?? ?? 4c 89 e3 49 c7 c4 ff ff ff ff 49 d3 e4 49 f7 d4 4d 21 e7 4c 89 f8 48 c1 e8 06 48 ?? ?? ?? ?? 4c 0f a3 f8 0f 83 ?? ?? ?? ?? }
-        $c1 = { 4c 6f 63 61 6c 53 61 66 61 72 69 41 70 70 45 78 74 }
-        $c2 = { 6c 61 73 74 48 65 61 72 74 62 65 61 74 }
+        $c1 = { 6c 61 73 74 48 65 61 72 74 62 65 61 74 }
+        $c2 = { 73 65 73 73 69 6f 6e 47 75 69 64 }
         $c3 = { 65 78 74 65 6e 73 69 6f 6e 49 64 }
         $c4 = { 75 73 65 72 47 75 69 64 }
         $c5 = { 41 70 70 45 78 74 48 65 61 72 74 62 65 61 74 }
-      
+
     condition:
         Macho and (filesize < 300KB) and ($a or $b) and (3 of ($c*))
 }
@@ -171,10 +171,8 @@ rule XProtect_MACOS_d92d83c
         description = "MACOS.d92d83c"
     strings:
 		$a1 = { 48 ?? ?? ?? ?? ?? ?? 48 ?? ?? ?? ?? ?? ?? 4c 89 ff 41 ff d5 48 ?? ?? ?? c6 03 00 48 ?? ?? ?? ?? ?? ?? 4c 89 f6 41 ff d5 48 ?? ?? ?? ?? ?? ?? 48 89 c7 48 89 da 41 ff d5 48 89 c3 48 ?? ?? ?? ?? ?? ?? 4c 89 ff 48 89 da 41 ff d5 48 ?? ?? ?? ?? ?? ?? 4c 89 ff 41 ff d5 84 c0 74 ?? }
-		$a2 = { 73 75 64 6f 20 2d 53 20 65 63 68 6f 20 5f 5f 74 62 74 5f 74 72 75 65 20 32 3e 26 31 }
-        $a3 = { 4d 4d 5f 44 45 42 55 47 }
 	condition:
-		Macho and $a1 and ($a2 or $a3)
+		Macho and all of them
 }
 
 rule XProtect_MACOS_0e62876
@@ -190,40 +188,44 @@ rule XProtect_MACOS_0e62876
 }
 
 rule XProtect_MACOS_de444f2
-{
-  meta:
-    description = "MACOS.de444f2"
-  strings:
-    $a1 = { (48 | 49) 63 ?? 41 32 ?? ?? (88 8D ?? ?? ?? ?? 48 | 48) ?? ?? 74 ?? 88 ?? 48 ?? ?? ?? eb ?? }
-    $a2 = { 41 64 6d 69 6e 20 53 75 63 63 65 73 73 3a 20 25 40 }
-    $a3 = { 45 72 72 6f 72 3a 20 25 40 }
-  condition:
-    Macho and filesize < 250KB and all of them
+{ 
+    meta:
+        description = "MACOS.de444f2"
+    strings:
+        $a1 = { (48 | 49) 63 ?? 41 32 ?? ?? (88 8D ?? ?? ?? ?? 48 | 48) ?? ?? 74 ?? 88 ?? 48 ?? ?? ?? eb ?? }
+        $a2 = { 48 8b [2-5] 48 89 ?? 48 f7 d? 48 01 c? 44 88 ?? ?? 48 8b [2-5] 48 89 c? 48 f7 d? 48 03 [2-5] ( 44 88 | 88 0c ) [1-2] 4? 83 f? ?? }
+        $b1 = { 41 64 6d 69 6e 20 53 75 63 63 65 73 73 3a 20 25 40 }
+        $b2 = { 45 72 72 6f 72 3a 20 25 40 }
+        $b3 = { 40 40 41 70 70 50 61 74 68 40 40 2f 43 6f 6e 74 65 6e 74 73 2f 4d 61 63 4f 53 }       
+    condition:
+        Macho and filesize < 250KB and (any of ($a*)) and (any of ($b*))
 }
 
 rule XProtect_MACOS_b70290c
-{
-  meta:
-    description = "MACOS.b70290c"
-  strings:
-    $a1 = { (48 | 49) 63 ?? 41 32 ?? ?? (88 8D ?? ?? ?? ?? 48 | 48) ?? ?? 74 ?? 88 ?? 48 ?? ?? ?? eb ?? }
-    $a2 = { 57 65 62 56 69 65 77 }
-    $a3 = { 4a 53 45 78 70 6f 72 74 }
-  condition:
-    Macho and filesize < 800KB and $a1 and ($a2 or $a3)
+{ 
+    meta:
+        description = "MACOS.b70290c"
+    strings:
+        $a1 = { (48 | 49) 63 ?? 41 32 ?? ?? (88 8D ?? ?? ?? ?? 48 | 48) ?? ?? 74 ?? 88 ?? 48 ?? ?? ?? eb ?? }
+        $a2 = { 48 8b [2-5] 48 89 ?? 48 f7 d? 48 01 c? 44 88 ?? ?? 48 8b [2-5] 48 89 c? 48 f7 d? 48 03 [2-5] ( 44 88 | 88 0c ) [1-2] 4? 83 f? ?? }
+        $b1 = { 57 65 62 56 69 65 77 }
+        $b2 = { 4a 53 45 78 70 6f 72 74 }      
+    condition:
+        Macho and filesize < 800KB and (any of ($a*)) and (any of ($b*))
 }
 
 rule XProtect_MACOS_22d71e9
-{
-  meta:
-    description = "MACOS.22d71e9"
-  strings:
-    $a1 = { (48 | 49) 63 ?? 41 32 ?? ?? (88 8D ?? ?? ?? ?? 48 | 48) ?? ?? 74 ?? 88 ?? 48 ?? ?? ?? eb ?? }
-    $a2 = { 57 65 62 56 69 65 77 }
-    $a3 = { 4a 53 45 78 70 6f 72 74 }
-    $a4 = { 25 34 64 2d 25 32 64 2d 25 32 64 54 25 32 64 3a 25 32 64 3a 25 32 64 5a }
-  condition:
-    Macho and filesize < 500KB and $a1 and #a2 == 0 and #a3 == 0 and $a4
+{ 
+    meta:
+        description = "MACOS.22d71e9"
+    strings:
+        $a1 = { (48 | 49) 63 ?? 41 32 ?? ?? (88 8D ?? ?? ?? ?? 48 | 48) ?? ?? 74 ?? 88 ?? 48 ?? ?? ?? eb ?? }
+        $a2 = { 48 8b [2-5] 48 89 ?? 48 f7 d? 48 01 c? 44 88 ?? ?? 48 8b [2-5] 48 89 c? 48 f7 d? 48 03 [2-5] ( 44 88 | 88 0c ) [1-2] 4? 83 f? ?? }
+        $b1 = { 57 65 62 56 69 65 77 }
+        $b2 = { 4a 53 45 78 70 6f 72 74 }
+        $c = { 25 34 64 2d 25 32 64 2d 25 32 64 54 25 32 64 3a 25 32 64 3a 25 32 64 5a }
+    condition:
+        Macho and filesize < 500KB and (any of ($a*)) and (not any of ($b*)) and $c
 }
 
 rule XProtect_MACOS_6175e25
