@@ -5,7 +5,7 @@
 	<key>JavaWebComponentVersionMinimum</key>
 	<string>1.6.0_45-b06-451</string>
 	<key>Version</key>
-	<real>2114</real>
+	<real>2116</real>
 	<key>PlugInBlacklist</key>
 	<dict>
 		<key>10</key>

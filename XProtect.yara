@@ -18,6 +18,28 @@ private rule PE
         uint16(0) == 0x5a4d and uint32(uint32(0x3C)) == 0x4550
 }
 
+rule XProtect_MACOS_c592675
+{ 
+    meta:
+        description = "MACOS.c592675"
+    strings:
+        $a = { 4c 75 6d 62 65 72 6a 61 63 6b }
+        $b = { 69 61 6d 72 6f 6f 74 }
+        $c = { 53 68 45 78 65 63 75 74 6f 72 }   
+    condition:
+		Macho and 2 of them
+}
+
+rule XProtect_MACOS_489e70f
+{ 
+    meta:
+        description = "MACOS.489e70f"
+    strings:
+        $a = { 66 89 45 d2 48 ?? ?? ?? ?? ?? ?? ba 01 00 00 00 4? 89 ?e 41 ff d6 66 89 45 d4 48 ?? ?? ?? ?? ?? ?? ba 02 00 00 00 4? 89 ?e 41 ff d6 66 89 45 d6 }       
+    condition:
+        Macho and filesize < 200KB and $a
+}
+
 rule XProtect_MACOS_8283b86
 { 
     meta:
@@ -183,8 +205,9 @@ rule XProtect_MACOS_0e62876
   	    $a = { 57 65 62 74 6f 6f 6c 73 43 6f 6e 66 69 67 }
         $b = { 53 74 61 72 74 69 6e 67 20 70 72 6f 74 65 63 74 6f 72 20 69 6e 73 74 61 6c 6c 61 74 69 6f 6e }
         $c = { 6a 73 46 72 6f 6d 41 70 70 6c 65 45 76 65 6e 74 73 45 6e 61 62 6c 65 64 }
+        $d = { 43 6c 69 63 6b 47 65 6e 65 72 61 74 6f 72 }
     condition:
-        Macho and all of them
+        Macho and 3 of them
 }
 
 rule XProtect_MACOS_de444f2
