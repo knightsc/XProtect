@@ -205,7 +205,9 @@ rule XProtect_MACOS_0e62876
   	    $a = { 57 65 62 74 6f 6f 6c 73 43 6f 6e 66 69 67 }
         $b = { 53 74 61 72 74 69 6e 67 20 70 72 6f 74 65 63 74 6f 72 20 69 6e 73 74 61 6c 6c 61 74 69 6f 6e }
         $c = { 6a 73 46 72 6f 6d 41 70 70 6c 65 45 76 65 6e 74 73 45 6e 61 62 6c 65 64 }
-        $d = { 43 6c 69 63 6b 47 65 6e 65 72 61 74 6f 72 }
+        $d = { 65 6e 61 62 6c 65 4a 73 46 72 6f 6d 41 70 70 6c 65 45 76 65 6e 74 73 }
+        $e = { 43 6c 69 63 6b 47 65 6e 65 72 61 74 6f 72 }
+        $f = { 73 6f 75 74 65 72 }
     condition:
         Macho and 3 of them
 }
@@ -217,11 +219,14 @@ rule XProtect_MACOS_de444f2
     strings:
         $a1 = { (48 | 49) 63 ?? 41 32 ?? ?? (88 8D ?? ?? ?? ?? 48 | 48) ?? ?? 74 ?? 88 ?? 48 ?? ?? ?? eb ?? }
         $a2 = { 48 8b [2-5] 48 89 ?? 48 f7 d? 48 01 c? 44 88 ?? ?? 48 8b [2-5] 48 89 c? 48 f7 d? 48 03 [2-5] ( 44 88 | 88 0c ) [1-2] 4? 83 f? ?? }
+        $a3 = { b1 ?? 41 be 01 00 00 00 4c 8d bd 7f ff ff ff 44 89 eb eb ?? }
+        $a4 = { 41 ff cd 90 49 63 c5 48 ?? ?? ?? ?? ?? ?? 32 0c 02 88 8d 7f ff ff ff 48 8b 45 88 48 3b 45 90 74 ?? }
+        $a5 = { 90 0f 57 c0 4c 8d 65 80 41 0f 29 04 24 49 c7 44 24 }
         $b1 = { 41 64 6d 69 6e 20 53 75 63 63 65 73 73 3a 20 25 40 }
         $b2 = { 45 72 72 6f 72 3a 20 25 40 }
         $b3 = { 40 40 41 70 70 50 61 74 68 40 40 2f 43 6f 6e 74 65 6e 74 73 2f 4d 61 63 4f 53 }       
     condition:
-        Macho and filesize < 250KB and (any of ($a*)) and (any of ($b*))
+        Macho and (any of ($a*)) and (any of ($b*))
 }
 
 rule XProtect_MACOS_b70290c
@@ -231,10 +236,13 @@ rule XProtect_MACOS_b70290c
     strings:
         $a1 = { (48 | 49) 63 ?? 41 32 ?? ?? (88 8D ?? ?? ?? ?? 48 | 48) ?? ?? 74 ?? 88 ?? 48 ?? ?? ?? eb ?? }
         $a2 = { 48 8b [2-5] 48 89 ?? 48 f7 d? 48 01 c? 44 88 ?? ?? 48 8b [2-5] 48 89 c? 48 f7 d? 48 03 [2-5] ( 44 88 | 88 0c ) [1-2] 4? 83 f? ?? }
+        $a3 = { b1 ?? 41 be 01 00 00 00 4c 8d bd 7f ff ff ff 44 89 eb eb ?? }
+        $a4 = { 41 ff cd 90 49 63 c5 48 ?? ?? ?? ?? ?? ?? 32 0c 02 88 8d 7f ff ff ff 48 8b 45 88 48 3b 45 90 74 ?? }
+        $a5 = { 90 0f 57 c0 4c 8d 65 80 41 0f 29 04 24 49 c7 44 24 }
         $b1 = { 57 65 62 56 69 65 77 }
         $b2 = { 4a 53 45 78 70 6f 72 74 }      
     condition:
-        Macho and filesize < 800KB and (any of ($a*)) and (any of ($b*))
+        Macho and (any of ($a*)) and (any of ($b*))
 }
 
 rule XProtect_MACOS_22d71e9
@@ -244,11 +252,13 @@ rule XProtect_MACOS_22d71e9
     strings:
         $a1 = { (48 | 49) 63 ?? 41 32 ?? ?? (88 8D ?? ?? ?? ?? 48 | 48) ?? ?? 74 ?? 88 ?? 48 ?? ?? ?? eb ?? }
         $a2 = { 48 8b [2-5] 48 89 ?? 48 f7 d? 48 01 c? 44 88 ?? ?? 48 8b [2-5] 48 89 c? 48 f7 d? 48 03 [2-5] ( 44 88 | 88 0c ) [1-2] 4? 83 f? ?? }
+        $a3 = { b1 ?? 41 be 01 00 00 00 4c 8d bd 7f ff ff ff 44 89 eb eb ?? }
+        $a4 = { 41 ff cd 90 49 63 c5 48 ?? ?? ?? ?? ?? ?? 32 0c 02 88 8d 7f ff ff ff 48 8b 45 88 48 3b 45 90 74 ?? }
+        $a5 = { 90 0f 57 c0 4c 8d 65 80 41 0f 29 04 24 49 c7 44 24 }
         $b1 = { 57 65 62 56 69 65 77 }
         $b2 = { 4a 53 45 78 70 6f 72 74 }
-        $c = { 25 34 64 2d 25 32 64 2d 25 32 64 54 25 32 64 3a 25 32 64 3a 25 32 64 5a }
     condition:
-        Macho and filesize < 500KB and (any of ($a*)) and (not any of ($b*)) and $c
+        Macho and (any of ($a*)) and (not any of ($b*))
 }
 
 rule XProtect_MACOS_6175e25
@@ -1463,3 +1473,28 @@ rule PrxlA
         )
 }
 
+rule XProtect_MACOS_44db411
+{
+    meta:
+
+        description = "MACOS.44db411"
+        gk_first_launch_only = true
+        match_type = 2
+
+    strings:
+
+        $a1 = { 2F 55 73 65 72 73 2F 25 40 2F 4C 69 62 72 61 72 79 2F 41 70 70 6C 69 63 61 74 69 6F 6E 20 53 75 70 70 6F 72 74 2F 53 6D 61 72 74 20 4D 61 63 20 43 61 72 65 2F 6C 69 63 65 6E 73 65 69 6E 66 6F 2E 70 6C 69 73 74 }
+        $b1 = { 69 73 45 78 70 69 72 65 64 4C 69 63 65 6E 73 65 }
+        $b2 = { 69 73 56 61 6C 69 64 4C 69 63 65 6E 73 65 }
+        $b3 = { 69 73 4D 6F 72 65 4C 69 63 65 6E 73 65 }
+        $b4 = { 69 73 4B 65 79 73 49 6E 63 6F 72 72 65 63 74 }
+        $b5 = { 64 61 79 73 52 65 6D 61 69 6E 69 6E 67 }
+        $c1 = { 63 6F 6D 2E 74 75 6E 65 75 70 6D 79 6D 61 63 }
+
+    condition:
+
+        Macho and
+        filesize < 8MB and
+        all of them
+
+}

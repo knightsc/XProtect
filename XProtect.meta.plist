@@ -2,58 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>JavaWebComponentVersionMinimum</key>
-	<string>1.6.0_45-b06-451</string>
-	<key>Version</key>
-	<real>2116</real>
-	<key>PlugInBlacklist</key>
-	<dict>
-		<key>10</key>
-		<dict>
-			<key>com.microsoft.SilverlightPlugin</key>
-			<dict>
-				<key>MinimumPlugInBundleVersion</key>
-				<string>5.1.41212.0</string>
-				<key>PlugInUpdateAvailable</key>
-				<true/>
-			</dict>
-			<key>com.macromedia.Flash Player.plugin</key>
-			<dict>
-				<key>MinimumPlugInBundleVersion</key>
-				<string>32.0.0.101</string>
-				<key>PlugInUpdateAvailable</key>
-				<true/>
-			</dict>
-			<key>com.macromedia.Flash Player ESR.plugin</key>
-			<dict>
-				<key>MinimumPlugInBundleVersion</key>
-				<string>18.0.0.382</string>
-				<key>PlugInUpdateAvailable</key>
-				<true/>
-			</dict>
-			<key>com.oracle.java.JavaAppletPlugin</key>
-			<dict>
-				<key>MinimumPlugInBundleVersion</key>
-				<string>1.8.51.16</string>
-				<key>PlugInUpdateAvailable</key>
-				<true/>
-			</dict>
-			<key>com.apple.java.JavaAppletPlugin</key>
-			<dict>
-				<key>MinimumPlugInBundleVersion</key>
-				<string>14.8.0</string>
-				<key>PlugInUpdateAvailable</key>
-				<true/>
-			</dict>
-			<key>com.apple.java.JavaPlugin2_NPAPI</key>
-			<dict>
-				<key>MinimumPlugInBundleVersion</key>
-				<string>14.8.0</string>
-				<key>PlugInUpdateAvailable</key>
-				<true/>
-			</dict>
-		</dict>
-	</dict>
 	<key>ExtensionBlacklist</key>
 	<dict>
 		<key>Extensions</key>
@@ -847,5 +795,57 @@
 			<string>com.apple.redis-server</string>
 		</array>
 	</dict>
+	<key>JavaWebComponentVersionMinimum</key>
+	<string>1.6.0_45-b06-451</string>
+	<key>PlugInBlacklist</key>
+	<dict>
+		<key>10</key>
+		<dict>
+			<key>com.apple.java.JavaAppletPlugin</key>
+			<dict>
+				<key>MinimumPlugInBundleVersion</key>
+				<string>14.8.0</string>
+				<key>PlugInUpdateAvailable</key>
+				<true/>
+			</dict>
+			<key>com.apple.java.JavaPlugin2_NPAPI</key>
+			<dict>
+				<key>MinimumPlugInBundleVersion</key>
+				<string>14.8.0</string>
+				<key>PlugInUpdateAvailable</key>
+				<true/>
+			</dict>
+			<key>com.macromedia.Flash Player ESR.plugin</key>
+			<dict>
+				<key>MinimumPlugInBundleVersion</key>
+				<string>18.0.0.382</string>
+				<key>PlugInUpdateAvailable</key>
+				<true/>
+			</dict>
+			<key>com.macromedia.Flash Player.plugin</key>
+			<dict>
+				<key>MinimumPlugInBundleVersion</key>
+				<string>32.0.0.101</string>
+				<key>PlugInUpdateAvailable</key>
+				<true/>
+			</dict>
+			<key>com.microsoft.SilverlightPlugin</key>
+			<dict>
+				<key>MinimumPlugInBundleVersion</key>
+				<string>5.1.41212.0</string>
+				<key>PlugInUpdateAvailable</key>
+				<true/>
+			</dict>
+			<key>com.oracle.java.JavaAppletPlugin</key>
+			<dict>
+				<key>MinimumPlugInBundleVersion</key>
+				<string>1.8.51.16</string>
+				<key>PlugInUpdateAvailable</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>Version</key>
+	<real>2118</real>
 </dict>
 </plist>
