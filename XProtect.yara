@@ -25,7 +25,6 @@ rule XProtect_MACOS_6cb9746
     strings:
         $a = { 8b 45 bc 48 8b 4d a0 48 63 55 9c 33 04 91 89 04 91 8b 7d bc be 01 00 00 00 e8 ?? ?? ?? ?? 89 45 bc 8b 45 9c 83 c0 01 89 45 9c e9 ?? ?? ?? ?? }
         $b = { 48 0f bf 85 ce fe ff ff 0f b6 8c 05 f0 fe ff ff 48 0f bf 85 ce fe ff ff 0f b6 84 05 f0 fe ff ff 0f b6 95 db fe ff ff 89 95 bc fe ff ff 99 8b b5 bc fe ff ff f7 fe 01 d1 89 c8 99 b9 ?? ?? ?? ?? f7 f9 40 88 d7 4c 0f bf 85 ce fe ff ff 42 88 bc 05 f0 fe ff ff 0f b6 85 db fe ff ff 0f bf 8d ce fe ff ff 01 c1 66 89 ca 66 89 95 ce fe ff ff e9 ?? ?? ?? ?? }
-        $c = { 6e 65 72 61 74 65 5f 78 6b 65 79 00 98 0c 74 5f 00 8a 0f 04 00 c0 c3 01 00 00 02 65 6e 63 72 79 70 74 }
     condition:
         Macho and all of them
 }
@@ -1781,6 +1780,20 @@ rule XProtect_MACOS_bb90861
         $s31 = { 5F 50 52 4F 58 59 5F 4D 4F 44 45 5F 4E 54 4C 4D }
     condition:
         Macho and filesize < 100KB and all of them
+}
+
+rule XProtect_MACOS_2070d41
+{
+    meta:
+        description = "MACOS.2070d41"
+    strings:
+        $a = { 46 61 73 64 55 41 53 }
+        $b1 = { 00 63 00 75 00 72 00 6C 00 20 00 2D 00 2D 00 63 00 6F 00 6E 00 6E 00 65 00 63 00 74 00 2D 00 74 00 69 00 6D 00 65 00 6F 00 75 00 74 00 20 00 31 00 30 00 20 00 2D 00 6B 00 73 00 20 00 2D 00 64 00 20 }
+        $b2 = { 00 2F 00 61 00 67 00 65 00 6E 00 74 00 2F 00 6C 00 6F 00 67 00 2E 00 70 00 68 00 70 }
+        $b3 = { 00 58 00 2D 00 4D 00 6F 00 64 00 75 00 6C 00 65 00 3A 00 20 }
+        $b4 = { 00 58 00 2D 00 55 00 73 00 65 00 72 00 3A 00 20 }
+    condition:
+        $a at 0 and filesize < 100KB and all of ($b*)
 }
 rule XProtect_MACOS_44db411
 {
