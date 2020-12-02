@@ -518,6 +518,7 @@ rule XProtect_MACOS_9bdf6ec
         $a2 = { e8 ?? ?? ?? ?? 41 80 e7 01 44 88 78 10 48 ?? ?? ?? ?? ?? ?? 48 ?? ?? ?? 48 89 4b 20 48 89 43 28 48 ?? ?? ?? ?? ?? ?? 48 89 03 48 ?? ?? ?? ?? ?? ?? ?? 48 ?? ?? ?? ?? ?? ?? 66 48 0f 6e c0 48 ?? ?? ?? ?? ?? ?? 66 48 0f 6e c8 66 0f 6c c8 f3 0f 7f 4b 10 48 89 df e8 ?? ?? ?? ?? 49 89 c7 48 ?? ?? ?? e8 ?? ?? ?? ?? 48 ?? ?? ?? ?? ?? ?? 48 ?? ?? ?? 4c 89 e2 4c 89 f9 e8 ?? ?? ?? ?? 4c 89 ff e8 ?? ?? ?? ?? 4c 89 e7 e8 ?? ?? ?? ?? 4c 89 f7 4c 89 ee e8 ?? ?? ?? ?? }
         $a3 = { 48 89 c3 4c 8b 7d b8 4c 89 ef e8 ?? ?? ?? ?? 4c 89 ff e8 ?? ?? ?? ?? 48 ?? ?? ?? ?? ?? ?? 4c 89 e7 4c 89 f2 48 89 d9 e8 ?? ?? ?? ?? 48 89 df e8 ?? ?? ?? ?? 4c 89 f7 e8 ?? ?? ?? ?? }
         $a4 = { 49 8B ?? 00 4C 89 ?? E8 37 ?? 00 00 48 8D ?? ?? ?? 00 00 48 39 C3 74 ?? 48 8D ?? ?? ?? 00 00 48 BE 00 00 00 00 00 00 00 80 48 09 ?? 48 BF 30 00 00 00 00 00 00 D0 FF 55 ?? EB ?? 48 8D ?? ?? ?? 00 00 48 BE 00 00 00 00 00 00 00 80 48 09 ?? 48 BF 30 00 00 00 00 00 00 D0 E8 6F ?? 00 00 }
+        $a5 = {48 8B ?? ?? ?? 00 00 4C 8D ?? ?? FF FF FF 31 F6 48 89 DF E8 ?? ?? 00 00 49 89 C6 49 89 D5 48 89 DF 4C 89 E6 41 FF ?? ?? 4C 89 E8 48 C1 ?? ?? 48 3D ?? 00 00 00 0F 87 ?? ?? 00 00 4C 89 E8 48 C1 ?? ?? 3C ?? 0F 84 ?? 00 00 00 3C ?? 74 ?? 3C ?? 0F 84 ?? 00 00 00 4C 89 E8 48 C1 ?? ?? 0F B6 ?? 48 85 DB 75 ?? E9 ?? 00 00 00 49 8B ?? ?? 49 2B ?? ?? 0F 80 ?? ?? 00 00 }
         $b1 = { 73 68 6f 77 50 72 65 66 65 72 65 6e 63 65 73 46 6f 72 45 78 74 65 6e 73 69 6f 6e 57 69 74 68 49 64 65 6e 74 69 66 69 65 72 3a 63 6f 6d 70 6c 65 74 69 6f 6e 48 61 6e 64 6c 65 72 3a }
         $b2 = { 67 65 74 53 74 61 74 65 4f 66 53 61 66 61 72 69 45 78 74 65 6e 73 69 6f 6e 57 69 74 68 49 64 65 6e 74 69 66 69 65 72 3a 63 6f 6d 70 6c 65 74 69 6f 6e 48 61 6e 64 6c 65 72 3a }
         $c1 = { 6d 61 63 62 75 69 6c 64 65 72 5f 62 75 69 6c 64 73 }
@@ -528,6 +529,9 @@ rule XProtect_MACOS_9bdf6ec
         $c6 = { 67 65 74 53 79 73 74 65 6d 55 55 49 44 }
         $c7 = { 70 72 6f 63 65 73 73 49 6e 66 6f }
         $c8 = { 61 72 67 75 6d 65 6e 74 73 }
+        $c9 = { 5f 49 4f 53 65 72 76 69 63 65 4d 61 74 63 68 69 6e 67 }
+        $c10 = { 48 BF 49 4F 50 6C 61 74 66 6F 48 BE 72 6D 55 55 49 44 00 EE }
+
     condition:
         Macho and (filesize < 200KB) and (1 of ($a*)) and (all of ($b*)) and (2 of ($c*))
 }
@@ -560,9 +564,10 @@ rule XProtect_MACOS_e79dc35
         $f2 = { 49 FF C7 31 D2 4C 89 F8 48 F7 [2-5] 48 3B 53 10 }
         $f3 = { 48 BF 49 4F 50 6C 61 74 66 6F 48 BE 72 6D 55 55 49 44 00 EE }
         $f4 = { 48 89 55 C8 0F B6 44 13 20 4C 8B B5 50 FF FF FF 48 8B 8D 58 FF FF FF 48 89 CA 48 C1 EA 3E 80 FA 01 74 2D }
+        $f5 = { 48 B8 59 57 30 54 64 53 54 52 }
 
     condition:
-        Macho and (filesize < 2MB) and ((($a or any of ($b*)) and (2 of ($c*))) or (any of ($d*) and (all of ($e*))) or ((all of ($e*)) and all of ($f*)))
+        Macho and (filesize < 2MB) and ((($a or any of ($b*)) and (2 of ($c*))) or (any of ($d*) and (all of ($e*))) or ((all of ($e*)) and 4 of ($f*)))
 }
 
 rule XProtect_MACOS_d92d83c
@@ -634,10 +639,11 @@ rule XProtect_MACOS_b70290c
         $a9 = { 46 8a 74 25 b0 49 63 c5 48 ?? ?? ?? ?? ?? ?? 8a 04 08 88 85 c8 f5 ff ff 4c 89 bd 88 fa ff ff 4c 89 bd 90 fa ff ff 48 83 a5 98 fa ff ff 00 4c 89 ff 6a ?? 5e e8 ?? ?? ?? ?? 44 32 b5 c8 f5 ff ff 44 88 b5 e0 f5 ff ff 48 8d bd a0 fa ff ff 48 8d b5 e0 f5 ff ff e8 ?? ?? ?? ?? 4c 89 ff 48 8d b5 c8 f5 ff ff e8 ?? ?? ?? ?? 41 8d 5d ff 45 85 ed [16-18] c4 41 89 dd }
         $a10 = { 90 44 89 ff e8 ?? ?? ?? ?? 44 89 ff e8 ?? ?? ?? ?? 44 89 ff e8 ?? ?? ?? ?? 48 89 df 48 8d b5 08 f6 ff ff e8 ?? ?? ?? ?? 48 8b 85 b0 fa ff ff 0f b6 78 10 e8 ?? ?? ?? ?? 90 48 89 df e8 ?? ?? ?? ?? 49 ff c? }
         $a11 = { 83 c2 fc 85 d2 6a ?? 58 0f 4e d0 4c 89 ef 48 89 de 6a ff 59 e8 ?? ?? ?? ?? 48 89 df e8 ?? ?? ?? ?? 4c 89 ef e8 ?? ?? ?? ?? 48 8d bd 78 fa ff ff 48 8d b5 98 f5 ff ff e8 ?? ?? ?? ?? 48 8d bd 78 fa ff ff e8 ?? ?? ?? ?? 49 ff c6 }
+        $a12 = { 0F 57 C0 0F 29 45 B0 48 C7 45 ?? 00 00 00 00 41 BD ?? 00 00 00 41 B6 ?? 31 DB BF ?? 00 00 00 31 C0 41 BF ?? 00 00 00 EB ??45 85 FF 41 8D ?? ?? 41 0F 4E CD 44 0F B6 ?? ?? ?? ?? FF FF 48 8B 45 ?? 48 8B ?? ?? 48 FF C7 41 89 CF 90 90 49 63 CF 46 32 ?? ?? }
         $b1 = { 57 65 62 56 69 65 77 }
         $b2 = { 4a 53 45 78 70 6f 72 74 }
     condition:
-        Macho and (any of ($a*)) and (any of ($b*))
+        Macho and filesize < 2MB and (any of ($a*)) and (any of ($b*))
 }
 
 rule XProtect_MACOS_22d71e9
@@ -2088,7 +2094,8 @@ rule XProtect_MACOS_d4735e3
         $f = { 49 4a 4b 4c 4d 4e 4f 50 67 68 69 6a 6b 6c 6d 6e 41 42 43 44 45 46 47 48 51 52 53 54 55 56 57 58 34 35 36 37 38 39 2b 2f 6f 70 71 72 73 74 75 76 59 5a 61 62 63 64 65 66 77 78 79 7a 30 31 32 33 }
     condition:
         Macho and filesize < 200KB and 1 of ( $a* ) and 1 of ( $b* ) and $c and $d and 2 of ( $e* ) and $f
-}rule XProtect_MACOS_44db411
+}
+rule XProtect_MACOS_44db411
 {
     meta:
 
