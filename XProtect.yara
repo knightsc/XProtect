@@ -18,16 +18,21 @@ private rule PE
         uint16(0) == 0x5a4d and uint32(uint32(0x3C)) == 0x4550
 }
 
-rule XProtect_MACOS_7ef4bab
+rule XProtect_MACOS_2afe6bd
 {
     meta:
-        description = "MACOS.7ef4bab"
+        description = "MACOS.2afe6bd"
     strings:
-        $a = { 48 0f 2c c1 48 c7 47 10 00 00 00 00 48 0f ba f8 3f f2 48 0f 2c f0 66 0f 2e c2 48 0f 43 f0 e8 ?? ?? ?? ?? 48 8b 8d 90 fd ff ff 48 8b b5 98 fd ff ff 48 39 f1 74 }
-        $b = { 69 6e 66 6c 61 74 65 49 6e 69 74 }
-        $c = { 75 75 69 64 5f 67 65 6e 65 72 61 74 65 5f 72 61 6e 64 6f 6d }
+        $a1 = { 5f 67 65 74 5f 69 6e 73 74 61 6c 6c 65 72 5f 6e 73 73 74 72 5f 63 6f 6e 73 74 }
+        $a2 = { 5f 67 65 74 5f 69 6e 73 74 61 6c 6c 65 72 5f 63 73 74 72 5f 63 6f 6e 73 74 }
+        $a3 = { 5f 67 65 74 5f 61 75 74 68 5f 72 65 66 }
+        $a4 = { 5f 72 75 6e 5f 61 73 5f 72 6f 6f 74 }
+        $b = { bf 0a [0-3] e8 ?? ?? ?? ?? 48 ?? 6d 6d 6d 6d 6d 6d 6d 6d 48 89 08 66 c7 ?? ?? 64 [0-1] 66 c7 ?? ?? 65 49 c6 ?? ?? 61 c7 ?? ?? 63 68 69 6e 5d c3 }
+        $c = { e8 ed 8d d2 e8 ed ad f2 e8 ed cd f2 e8 ed ed f2 08 20 00 a9 08 e0 00 f8 c8 0d 80 52 08 34 00 39 1f 54 00 39 }
+        $d1 = { 5f 41 75 74 68 6f 72 69 7a 61 74 69 6f 6e 45 78 65 63 75 74 65 57 69 74 68 50 72 69 76 69 6c 65 67 65 73 }
+        $d2 = { 5f 49 4f 53 65 72 76 69 63 65 47 65 74 4d 61 74 63 68 69 6e 67 53 65 72 76 69 63 65 }
     condition:
-        Macho and filesize < 20MB and all of them
+        Macho and filesize < 600KB and ( ( all of ( $a* ) ) or ( ( $b or $c ) and ( all of ( $d* ) ) ) )
 }
 
 rule XProtect_MACOS_4d60c89
@@ -2223,6 +2228,38 @@ rule XProtect_MACOS_d4735e3
         $f = { 49 4a 4b 4c 4d 4e 4f 50 67 68 69 6a 6b 6c 6d 6e 41 42 43 44 45 46 47 48 51 52 53 54 55 56 57 58 34 35 36 37 38 39 2b 2f 6f 70 71 72 73 74 75 76 59 5a 61 62 63 64 65 66 77 78 79 7a 30 31 32 33 }
     condition:
         Macho and filesize < 200KB and 1 of ( $a* ) and 1 of ( $b* ) and $c and $d and 2 of ( $e* ) and $f
+}
+
+rule XProtect_MACOS_b5bd028
+{
+    meta:
+        description = "MACOS.b5bd028"
+
+    strings:
+        $a = { 23 21 2f 62 69 6e 2f 62 61 73 68 }
+        $b1 = { 2f 70 61 72 61 6d 73 4a 73 6f 6e 2e 6a 73 6f 6e }
+        $b2 = { 2f 2e 52 65 73 6f 75 72 63 65 73 }
+
+    condition:
+        $a at 0 and all of ($b*) and filesize < 1KB
+}
+
+rule XProtect_MACOS_d98ded3
+{
+    meta:
+        description = "MACOS.d98ded3"
+
+    strings:
+        $a1 = { 50 58 ( 90 90 | 90 90 90 | 90 90 90 90 | 90 90 90 90 90 ) 50 58 ( 90 90 | 90 90 90 | 90 90 90 90 | 90 90 90 90 90 ) }
+        $a2 = { 50 50 58 ( 90 90 | 90 90 90 | 90 90 90 90 | 90 90 90 90 90 ) 58 ( 90 90 | 90 90 90 | 90 90 90 90 | 90 90 90 90 90 ) }
+        $a3 = { 50 50 50 58 ( 90 90 | 90 90 90 | 90 90 90 90 | 90 90 90 90 90 ) 58 ( 90 90 | 90 90 90 | 90 90 90 90 | 90 90 90 90 90 ) 58 ( 90 90 | 90 90 90 | 90 90 90 90 | 90 90 90 90 90 ) }
+        $b1 = { 5f 43 46 55 55 49 44 43 72 65 61 74 65 }
+        $b2 = { 5f 43 46 55 55 49 44 43 72 65 61 74 65 53 74 72 69 6e 67 }
+        $c1 = { 5f 73 79 73 74 65 6d }
+        $c2 = { 6c 61 75 6e 63 68 65 64 54 61 73 6b 57 69 74 68 4c 61 75 6e 63 68 50 61 74 68 3a 61 72 67 75 6d 65 6e 74 73 3a }
+
+    condition:
+        Macho and any of ($a*) and all of ($b*) and any of ($c*) and filesize < 5MB
 }
 rule XProtect_MACOS_44db411
 {
