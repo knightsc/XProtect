@@ -2296,7 +2296,9 @@ rule XProtect_MACOS_1db9cfa
             (hash.sha1(12480, 3383) == "004f76d87aa8a54b3f8e7a81c05907c435fe0e1a" and hash.sha1(32944, 10899) == "19f6ff8f2e5373c6ceea6c5ce3a5ca508b215e54") or
             (hash.sha1(12480, 3383) == "a84321e906733c899446e9f8f7c033d9839c9041" and hash.sha1(32944, 3213)  == "4712921d105a4874c2371542bbbf1b64fa3216eb") or
             (hash.sha1(12480, 3383) == "12622a1009c200ba049a66931efdfeed4776f6d4" and hash.sha1(32944, 12539) == "9b93e47be24e03e33926e2f0456eed1b4b1dd971") or
-            (hash.sha1(12496, 3367) == "5f9d750a6da1d886edc6c9a5dfabe0623997046e" and hash.sha1(32944, 3138)  == "500c2199792632959ed04dc8b0a9799dac353519")
+            (hash.sha1(12496, 3367) == "5f9d750a6da1d886edc6c9a5dfabe0623997046e" and hash.sha1(32944, 3138)  == "500c2199792632959ed04dc8b0a9799dac353519") or
+            (hash.sha1(12480, 3383) == "f7ac34703d0ab6c02a0197b1b9347ec6ffa4a968" and hash.sha1(32944, 11631) == "b7ca72ad28280f4778efa49da6346f01de7e82c7") or
+            (hash.sha1(12480, 3383) == "e53163e5f4524a1d078bad5de96c8f656e37abce" and hash.sha1(32944, 2731)  == "8950d8649618253e55b60afaf36e33604a0c9139")
         )
 }
 
