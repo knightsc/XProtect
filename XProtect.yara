@@ -118,8 +118,12 @@ rule XProtect_MACOS_0e32a32
         $b3 = { 24 7b ?? 7d 24 7b ?? 7d 24 7b ?? 7d 24 7b ?? 7d 24 7b ?? 7d 24 7b ?? 7d 24 7b ?? 7d 20 24 7b ?? 7d 24 7b ?? 7d 24 7b ?? 7d }
         $b4 = { 6e 6f 68 75 70 20 2f 62 69 6e 2f 62 61 73 68 20 2d 63 20 22 65 76 61 6c }
 
+        $c1 = { 27 5c 2e 28 63 6f 6d 6d 61 6e 64 29 24 27 }
+        $c2 = { 55 32 46 73 64 47 56 6b 58 31 }
+        $c3 = { 6b 69 6c 6c 61 6c 6c 20 54 65 72 6d 69 6e 61 6c }
+
     condition:
-        filesize < 10KB and $a at 0 and all of ($b*)
+        filesize < 10KB and $a at 0 and (all of ($b*) or all of ($c*))
 }
 
 rule XProtect_MACOS_2afe6bd
@@ -2603,7 +2607,28 @@ rule XProtect_MACOS_d98ded3
     condition:
         Macho and any of ($a*) and all of ($b*) and any of ($c*) and filesize < 5MB
 }
-rule XProtect_MACOS_44db411
+
+rule XProtect_MACOS_9a3e9ed
+{
+    meta:
+        description = "MACOS.9a3e9ed"
+
+    strings:
+        $a1 = { 50 83 ff 77 [14 - 20] 48 01 c8 ff e0 bf ?? 00 00 00 e8 ?? ?? 00 00 48 89 c3 }
+        $a2 = { 31 db }
+        $b1 = { 7b 73 65 61 72 63 68 54 48 }
+        $b2 = { 2e 6d 79 63 6f 75 70 6f 48 }
+        $b3 = { 6e 73 6d 61 72 74 73 6d 48 }
+        $b4 = { 70 72 75 64 65 6e 73 65 48 }
+        $b5 = { 5f 53 4d 4a 6f 62 53 75 62 6d 69 74 }
+        $b6 = { 5f 6b 53 4d 44 6f 6d 61 69 6e 53 79 73 74 65 6d 4c 61 75 6e 63 68 64 }
+        $b7 = { 49 4f 50 6c 61 74 66 6f 72 6d 53 65 72 69 61 6c 4e 75 6d 62 65 72 }
+        $b8 = { 79 6f 75 67 6f 74 75 70 64 61 74 65 64 }
+        $b9 = { 2d 6d 65 74 68 6f 64 3d 72 75 6e }
+     
+    condition:
+        Macho and (all of ($a*)) or (3 of ($b*)) and filesize < 300KB
+}rule XProtect_MACOS_44db411
 {
     meta:
 
